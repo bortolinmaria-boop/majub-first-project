@@ -1,1 +1,222 @@
-# majub-first-project
+trendfit
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TrendFit - Loja</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:#000;
+color:#fff;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+padding:20px;
+background:#111;
+border-bottom:2px solid #c0c0c0;
+}
+
+.logo{
+color:#c0c0c0;
+font-size:26px;
+font-weight:bold;
+}
+
+.cart{
+cursor:pointer;
+background:#c0c0c0;
+color:#000;
+padding:8px 12px;
+border-radius:5px;
+font-weight:bold;
+}
+
+.hero{
+text-align:center;
+padding:60px 20px;
+}
+
+h1{
+color:#c0c0c0;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+padding:40px;
+}
+
+.card{
+background:#111;
+padding:15px;
+border:1px solid #c0c0c0;
+text-align:center;
+border-radius:8px;
+}
+
+.card img{
+width:100%;
+height:180px;
+object-fit:cover;
+border-radius:6px;
+}
+
+button{
+margin-top:10px;
+padding:10px;
+background:#c0c0c0;
+border:none;
+cursor:pointer;
+font-weight:bold;
+}
+
+#carrinho{
+position:fixed;
+right:0;
+top:0;
+width:300px;
+height:100%;
+background:#111;
+border-left:2px solid #c0c0c0;
+padding:20px;
+display:none;
+overflow:auto;
+}
+
+.item{
+border-bottom:1px solid #333;
+padding:10px 0;
+}
+
+.total{
+margin-top:20px;
+font-size:18px;
+}
+
+.pay{
+background:green;
+color:#fff;
+width:100%;
+margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">TrendFit</div>
+  <div class="cart" onclick="toggleCart()">Carrinho 🛒</div>
+</header>
+
+<section class="hero">
+  <h1>Moda Fitness Feminina</h1>
+  <p>Escolha seus produtos e compre online</p>
+</section>
+
+<section class="grid">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438">
+    <h3>Legging</h3>
+    <p>R$ 129</p>
+    <button onclick="add('Legging',129)">Comprar</button>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1519741497674-611481863552">
+    <h3>Top Fitness</h3>
+    <p>R$ 89</p>
+    <button onclick="add('Top Fitness',89)">Comprar</button>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1514996937319-344454492b37">
+    <h3>Conjunto</h3>
+    <p>R$ 199</p>
+    <button onclick="add('Conjunto',199)">Comprar</button>
+  </div>
+
+</section>
+
+<!-- CARRINHO -->
+<div id="carrinho">
+  <h2>Carrinho</h2>
+  <div id="itens"></div>
+
+  <div class="total">
+    Total: R$ <span id="total">0</span>
+  </div>
+
+  <button class="pay" onclick="pagar()">Finalizar Compra</button>
+</div>
+
+<script>
+let carrinho = [];
+let total = 0;
+
+function add(nome, preco){
+carrinho.push({nome, preco});
+total += preco;
+render();
+alert(nome + " adicionado!");
+}
+
+function render(){
+let box = document.getElementById("itens");
+box.innerHTML = "";
+
+carrinho.forEach(i=>{
+box.innerHTML += `<div class="item">${i.nome} - R$ ${i.preco}</div>`;
+});
+
+document.getElementById("total").innerText = total;
+}
+
+function toggleCart(){
+let c = document.getElementById("carrinho");
+c.style.display = c.style.display === "block" ? "none" : "block";
+}
+
+function pagar(){
+alert("Pagamento simulado aprovado! (Projeto escolar)");
+carrinho = [];
+total = 0;
+render();
+}
+</script>
+
+</body>
+</html>
+<button class="botao-curtir" onclick="curtirProduto()">
+  <span id="icone-coracao">🤍</span> Curtir (<span id="contador">0</span>)
+</button>
+
+<script>
+// JavaScript
+let curtido = false;
+let totalCurtidas = 0;
+
+function curtirProduto() {
+  const coracao = document.getElementById('icone-coracao');
+  const contador = document.getElementById('contador');
+  
+  if (!curtido) {
+    curtido = true;
+    totalCurtidas++;
+    coracao.innerText = '❤️'; // Muda o coração para cheio
+  } else {
+    curtido = false;
+    totalCurtidas--;
+    coracao.innerText = '🤍'; // Volta para o coração vazio
+  }
+  contador.innerText = totalCurtidas;
+}
+</script>-
