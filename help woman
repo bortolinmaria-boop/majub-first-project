@@ -1,0 +1,2489 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ELAS | Informação que protege</title>
+
+    <meta name="description"
+        content="Portal educativo sobre violência contra a mulher, informação, acolhimento e caminhos para buscar ajuda.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- BOTÕES DE ACESSIBILIDADE -->
+
+    <div class="accessibility">
+        <button id="fontIncrease" title="Aumentar fonte">
+            A+
+        </button>
+
+        <button id="fontDecrease" title="Diminuir fonte">
+            A-
+        </button>
+
+        <button id="contrastBtn" title="Alto contraste">
+            ◐
+        </button>
+    </div>
+
+
+    <!-- MENU -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="#inicio" class="logo">
+                <span>ELAS</span>
+                <small>informação que protege</small>
+            </a>
+
+            <button class="menu-btn" id="menuBtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="#inicio">Início</a>
+                </li>
+
+                <li>
+                    <a href="#entenda">Entenda</a>
+                </li>
+
+                <li>
+                    <a href="#teste">Teste</a>
+                </li>
+
+                <li>
+                    <a href="#escuta">Escuta</a>
+                </li>
+
+                <li>
+                    <a href="#ajuda">Ajuda</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-glow"></div>
+
+            <div class="hero-content">
+
+                <span class="tag">
+                    <i class="fa-solid fa-heart"></i>
+                    PORTAL DE APOIO AO ESTUDANTE
+                </span>
+
+                <h1>
+                    Informação
+                    <span>também protege.</span>
+                </h1>
+
+                <p>
+                    Um espaço para entender, reconhecer situações de violência
+                    contra a mulher e descobrir caminhos para buscar apoio.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#teste" class="btn btn-primary">
+                        Fazer o teste
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <a href="#entenda" class="btn btn-outline">
+                        Quero entender
+                    </a>
+
+                </div>
+
+                <div class="hero-note">
+                    <i class="fa-solid fa-shield-heart"></i>
+                    Você não precisa enfrentar uma situação difícil sozinha.
+                </div>
+
+            </div>
+
+
+            <div class="hero-visual">
+
+                <div class="circle circle-one"></div>
+                <div class="circle circle-two"></div>
+
+                <div class="hero-card">
+
+                    <div class="card-top">
+                        <span>ELAS</span>
+
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+
+                    <div class="hero-symbol">
+                        ♀
+                    </div>
+
+                    <h3>
+                        Respeito não é opção.
+                    </h3>
+
+                    <p>
+                        É direito.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FRASE -->
+
+        <section class="statement">
+
+            <div class="statement-number">
+                01
+            </div>
+
+            <div>
+
+                <p class="mini-title">
+                    POR QUE ESTE PORTAL EXISTE?
+                </p>
+
+                <h2>
+                    Nem toda violência deixa uma marca visível.
+                </h2>
+
+                <p>
+                    Controle, humilhação, ameaças, perseguição e outras atitudes
+                    também podem ser formas de violência. Conhecer esses sinais
+                    ajuda a identificar situações de risco e procurar apoio.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ENTENDA -->
+
+        <section class="section" id="entenda">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="eyebrow">02 / ENTENDA</span>
+
+                    <h2>
+                        Violência não é
+                        <span>apenas agressão física.</span>
+                    </h2>
+                </div>
+
+                <p>
+                    A violência contra a mulher pode aparecer de diferentes
+                    maneiras. Conheça algumas delas.
+                </p>
+
+            </div>
+
+
+            <div class="types-grid">
+
+                <article class="type-card">
+
+                    <div class="type-icon pink">
+                        <i class="fa-solid fa-hand-fist"></i>
+                    </div>
+
+                    <span>01</span>
+
+                    <h3>Física</h3>
+
+                    <p>
+                        Qualquer ação que prejudique a integridade ou a saúde
+                        do corpo da mulher.
+                    </p>
+
+                    <button class="learn-more"
+                        data-info="Empurrões, tapas, socos, queimaduras e outras agressões que causem dano corporal podem caracterizar violência física.">
+                        Saiba mais
+                    </button>
+
+                </article>
+
+
+                <article class="type-card">
+
+                    <div class="type-icon purple">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+
+                    <span>02</span>
+
+                    <h3>Psicológica</h3>
+
+                    <p>
+                        Comportamentos que causam sofrimento emocional,
+                        medo ou diminuem a autoestima.
+                    </p>
+
+                    <button class="learn-more"
+                        data-info="Ameaças, humilhações, chantagens, manipulação, isolamento, perseguição e controle podem ser formas de violência psicológica.">
+                        Saiba mais
+                    </button>
+
+                </article>
+
+
+                <article class="type-card">
+
+                    <div class="type-icon pink">
+                        <i class="fa-solid fa-heart-crack"></i>
+                    </div>
+
+                    <span>03</span>
+
+                    <h3>Sexual</h3>
+
+                    <p>
+                        Qualquer situação que viole a liberdade e os direitos
+                        sexuais e reprodutivos.
+                    </p>
+
+                    <button class="learn-more"
+                        data-info="Forçar ou pressionar uma mulher a participar de uma relação sexual sem consentimento é uma forma de violência.">
+                        Saiba mais
+                    </button>
+
+                </article>
+
+
+                <article class="type-card">
+
+                    <div class="type-icon purple">
+                        <i class="fa-solid fa-wallet"></i>
+                    </div>
+
+                    <span>04</span>
+
+                    <h3>Patrimonial</h3>
+
+                    <p>
+                        Envolve bens, documentos, dinheiro e recursos
+                        econômicos da mulher.
+                    </p>
+
+                    <button class="learn-more"
+                        data-info="Reter, destruir ou controlar documentos, dinheiro, bens e instrumentos de trabalho pode caracterizar violência patrimonial.">
+                        Saiba mais
+                    </button>
+
+                </article>
+
+
+                <article class="type-card">
+
+                    <div class="type-icon pink">
+                        <i class="fa-solid fa-comment-slash"></i>
+                    </div>
+
+                    <span>05</span>
+
+                    <h3>Moral</h3>
+
+                    <p>
+                        Ações que atingem a honra, a reputação ou a dignidade
+                        da mulher.
+                    </p>
+
+                    <button class="learn-more"
+                        data-info="Calúnia, difamação e injúria são formas de violência moral previstas na legislação.">
+                        Saiba mais
+                    </button>
+
+                </article>
+
+
+                <article class="type-card special-card">
+
+                    <div class="special-content">
+
+                        <i class="fa-solid fa-circle-question"></i>
+
+                        <h3>
+                            Será que você
+                            reconheceria?
+                        </h3>
+
+                        <a href="#teste">
+                            Descubra no teste
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- TESTE -->
+
+        <section class="quiz-section" id="teste">
+
+            <div class="quiz-intro">
+
+                <span class="eyebrow">03 / TESTE RÁPIDO</span>
+
+                <h2>
+                    Você sabe
+                    <span>reconhecer?</span>
+                </h2>
+
+                <p>
+                    Responda 5 perguntas e veja quanto você sabe sobre
+                    respeito, violência e formas de buscar ajuda.
+                </p>
+
+            </div>
+
+
+            <div class="quiz-box">
+
+                <div class="quiz-progress">
+
+                    <span id="questionNumber">
+                        Pergunta 1 de 5
+                    </span>
+
+                    <div class="progress">
+                        <div id="progressBar"></div>
+                    </div>
+
+                </div>
+
+
+                <div id="quizContent">
+
+                    <h3 id="question">
+                        Carregando pergunta...
+                    </h3>
+
+                    <div id="answers"></div>
+
+                    <button id="nextBtn" class="quiz-next" disabled>
+                        Próxima
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </div>
+
+
+                <div id="quizResult" class="quiz-result hidden">
+
+                    <div class="result-icon">
+                        <i class="fa-solid fa-trophy"></i>
+                    </div>
+
+                    <p>SEU RESULTADO</p>
+
+                    <strong id="score">
+                        0/5
+                    </strong>
+
+                    <h3 id="resultMessage">
+                        Muito bem!
+                    </h3>
+
+                    <p id="resultText"></p>
+
+                    <button id="restartQuiz" class="btn btn-primary">
+                        Refazer teste
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ESCUTA -->
+
+        <section class="section listening" id="escuta">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="eyebrow">04 / PORTAL DE ESCUTA</span>
+
+                    <h2>
+                        Às vezes,
+                        <span>falar ajuda.</span>
+                    </h2>
+                </div>
+
+                <p>
+                    Este espaço é apenas uma simulação educativa.
+                    Nenhuma mensagem será armazenada.
+                </p>
+
+            </div>
+
+
+            <div class="listening-grid">
+
+                <div class="listening-message">
+
+                    <div class="quote">
+                        “
+                    </div>
+
+                    <h3>
+                        O que você sente importa.
+                    </h3>
+
+                    <p>
+                        Você pode escrever o que gostaria de colocar para
+                        fora. Depois de enviar, uma mensagem de acolhimento
+                        aparecerá na tela.
+                    </p>
+
+                    <div class="support-tip">
+
+                        <i class="fa-solid fa-lightbulb"></i>
+
+                        <span>
+                            Se algo estiver acontecendo com você,
+                            procure um adulto de confiança.
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <form id="listenForm" class="listen-form">
+
+                    <label for="message">
+                        Escreva seu desabafo
+                    </label>
+
+                    <textarea id="message"
+                        placeholder="Escreva aqui... lembre-se: este formulário é apenas uma simulação."
+                        required></textarea>
+
+                    <button type="submit" class="btn btn-primary">
+                        Enviar mensagem
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+
+                    <div id="supportResponse" class="support-response hidden">
+                    </div>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- AJUDA -->
+
+        <section class="help-section" id="ajuda">
+
+            <div class="help-heading">
+
+                <span class="eyebrow">
+                    05 / PRECISA DE AJUDA?
+                </span>
+
+                <h2>
+                    Você não precisa
+                    <span>resolver tudo sozinha.</span>
+                </h2>
+
+                <p>
+                    Existem pessoas e serviços preparados para orientar
+                    e acolher.
+                </p>
+
+            </div>
+
+
+            <div class="help-grid">
+
+                <article class="help-card main-help">
+
+                    <div class="help-number">
+                        180
+                    </div>
+
+                    <h3>
+                        Ligue 180
+                    </h3>
+
+                    <p>
+                        Central de Atendimento à Mulher. Serviço gratuito,
+                        disponível 24 horas por dia.
+                    </p>
+
+                    <a href="https://www.gov.br/mulheres/pt-br/ligue180"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Conhecer o serviço
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </article>
+
+
+                <article class="help-card emergency">
+
+                    <div class="help-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+
+                    <h3>
+                        Emergência
+                    </h3>
+
+                    <strong>190</strong>
+
+                    <p>
+                        Em uma situação de emergência ou risco iminente,
+                        procure a Polícia Militar.
+                    </p>
+
+                </article>
+
+
+                <article class="help-card">
+
+                    <div class="help-icon">
+                        <i class="fa-solid fa-people-arrows"></i>
+                    </div>
+
+                    <h3>
+                        Rede de apoio
+                    </h3>
+
+                    <p>
+                        Professor, pedagogo, direção da escola, familiares
+                        ou outro adulto de confiança também podem ajudar.
+                    </p>
+
+                </article>
+
+            </div>
+
+            <div class="important-note">
+
+                <i class="fa-solid fa-circle-info"></i>
+
+                <p>
+                    <strong>Importante:</strong> este site é um projeto
+                    educativo. Em uma situação real, procure ajuda de
+                    profissionais e serviços oficiais.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- REFERÊNCIAS -->
+
+        <section class="references section" id="referencias">
+
+            <span class="eyebrow">06 / REFERÊNCIAS</span>
+
+            <h2>
+                De onde vêm
+                <span>essas informações?</span>
+            </h2>
+
+            <div class="reference-list">
+
+                <a href="https://www.gov.br/mulheres/pt-br/ligue180"
+                    target="_blank">
+                    <span>
+                        Ministério das Mulheres
+                    </span>
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+
+
+                <a href="https://www.gov.br/mj/pt-br/assuntos/sua-seguranca/seguranca-publica/susp-mulheres/violencia-domestica-e-familiar"
+                    target="_blank">
+
+                    <span>
+                        Ministério da Justiça e Segurança Pública
+                    </span>
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                </a>
+
+
+                <a href="https://legis.senado.gov.br/norma/572125/publicacao/34620955"
+                    target="_blank">
+
+                    <span>
+                        Senado Federal — Lei Maria da Penha
+                    </span>
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-logo">
+            ELAS
+        </div>
+
+        <p>
+            Informação • Respeito • Acolhimento
+        </p>
+
+        <small>
+            Projeto Individual — Portal de Apoio ao Estudante
+        </small>
+
+    </footer>
+
+
+    <!-- MODAL -->
+
+    <div class="modal" id="infoModal">
+
+        <div class="modal-box">
+
+            <button class="close-modal" id="closeModal">
+                ×
+            </button>
+
+            <i class="fa-solid fa-shield-heart"></i>
+
+            <p id="modalText"></p>
+
+        </div>
+
+    </div>
+
+
+    <!-- VOLTAR AO TOPO -->
+
+    <button id="topBtn" class="top-btn">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+:root {
+    --black: #070509;
+    --black-2: #0d0912;
+    --purple: #8b3dff;
+    --purple-light: #b56cff;
+    --pink: #ff3cac;
+    --pink-light: #ff72c8;
+    --white: #ffffff;
+    --gray: #a9a2b2;
+    --card: #15101c;
+    --border: rgba(255,255,255,.09);
+    --shadow: 0 25px 70px rgba(0,0,0,.45);
+    --font-size: 1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: calc(16px * var(--font-size));
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: var(--black);
+    color: var(--white);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+body::selection {
+    background: var(--pink);
+    color: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    font-family: inherit;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background: rgba(7,5,9,.78);
+    backdrop-filter: blur(18px);
+    border-bottom: 1px solid var(--border);
+}
+
+.navbar {
+    max-width: 1250px;
+    margin: auto;
+    height: 82px;
+    padding: 0 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo span {
+    font-family: "Space Grotesk";
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 4px;
+
+    background: linear-gradient(90deg, var(--pink), var(--purple-light));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.logo small {
+    font-size: .55rem;
+    color: var(--gray);
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+.nav-links a {
+    color: #c9c2cf;
+    font-size: .85rem;
+    transition: .3s;
+}
+
+.nav-links a:hover {
+    color: var(--pink);
+}
+
+.menu-btn {
+    display: none;
+    background: none;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+}
+
+
+/* ACESSIBILIDADE */
+
+.accessibility {
+    position: fixed;
+    right: 18px;
+    top: 100px;
+    z-index: 999;
+
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.accessibility button {
+    width: 38px;
+    height: 38px;
+
+    background: #18121e;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.accessibility button:hover {
+    background: var(--purple);
+}
+
+
+/* HERO */
+
+.hero {
+    min-height: 100vh;
+    max-width: 1250px;
+    margin: auto;
+    padding: 150px 25px 80px;
+
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
+    align-items: center;
+    gap: 50px;
+
+    position: relative;
+}
+
+.hero-glow {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+
+    background: radial-gradient(
+        circle,
+        rgba(139,61,255,.27),
+        transparent 70%
+    );
+
+    filter: blur(20px);
+    top: 100px;
+    right: 50px;
+}
+
+.tag,
+.eyebrow {
+    color: var(--pink);
+    font-size: .72rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+
+    padding: 8px 13px;
+
+    border: 1px solid rgba(255,60,172,.25);
+    border-radius: 30px;
+
+    background: rgba(255,60,172,.06);
+}
+
+.hero h1 {
+    margin-top: 25px;
+
+    font-family: "Space Grotesk";
+    font-size: clamp(3.5rem, 7vw, 7rem);
+    line-height: .93;
+    letter-spacing: -5px;
+}
+
+.hero h1 span,
+.section-heading h2 span,
+.quiz-intro h2 span,
+.help-heading h2 span,
+.references h2 span {
+    background: linear-gradient(
+        100deg,
+        var(--pink),
+        var(--purple-light)
+    );
+
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.hero-content > p {
+    max-width: 580px;
+    margin-top: 30px;
+
+    color: var(--gray);
+    font-size: 1.05rem;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 35px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 14px 22px;
+    border-radius: 12px;
+
+    font-weight: 700;
+    font-size: .85rem;
+
+    border: 1px solid transparent;
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+.btn-primary {
+    color: white;
+    background: linear-gradient(
+        110deg,
+        var(--purple),
+        var(--pink)
+    );
+
+    box-shadow: 0 12px 35px rgba(255,60,172,.2);
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 18px 40px rgba(255,60,172,.35);
+}
+
+.btn-outline {
+    border-color: var(--border);
+    color: #ddd5e2;
+}
+
+.btn-outline:hover {
+    border-color: var(--purple);
+}
+
+.hero-note {
+    margin-top: 30px;
+
+    color: #77717f;
+    font-size: .78rem;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-note i {
+    color: var(--pink);
+}
+
+
+/* HERO VISUAL */
+
+.hero-visual {
+    position: relative;
+    min-height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-one {
+    width: 400px;
+    height: 400px;
+
+    border: 1px solid rgba(255,60,172,.18);
+}
+
+.circle-two {
+    width: 300px;
+    height: 300px;
+
+    border: 1px solid rgba(139,61,255,.3);
+}
+
+.hero-card {
+    position: relative;
+    width: 330px;
+    height: 420px;
+
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 30px;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(139,61,255,.22),
+            rgba(255,60,172,.08)
+        ),
+        #100b15;
+
+    box-shadow: var(--shadow);
+
+    padding: 28px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    transform: rotate(4deg);
+
+    animation: floating 5s ease-in-out infinite;
+}
+
+@keyframes floating {
+    0%,100% {
+        transform: translateY(0) rotate(4deg);
+    }
+
+    50% {
+        transform: translateY(-14px) rotate(2deg);
+    }
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+
+    color: #aaa0b1;
+}
+
+.hero-symbol {
+    text-align: center;
+
+    font-size: 10rem;
+    font-weight: 900;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--pink),
+            var(--purple)
+        );
+
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.hero-card h3 {
+    font-family: "Space Grotesk";
+    font-size: 1.5rem;
+}
+
+.hero-card p {
+    color: var(--pink);
+}
+
+
+/* STATEMENT */
+
+.statement {
+    max-width: 1000px;
+    margin: 80px auto 140px;
+
+    padding: 60px 25px;
+
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 40px;
+
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+.statement-number {
+    font-family: "Space Grotesk";
+    color: var(--purple-light);
+    font-size: 1.3rem;
+}
+
+.mini-title {
+    color: var(--pink);
+    font-size: .7rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.statement h2 {
+    margin: 15px 0;
+
+    max-width: 700px;
+
+    font-family: "Space Grotesk";
+    font-size: clamp(2rem, 4vw, 4rem);
+    line-height: 1;
+}
+
+.statement p:last-child {
+    max-width: 700px;
+    color: var(--gray);
+}
+
+
+/* SECTIONS */
+
+.section {
+    max-width: 1250px;
+    margin: auto;
+    padding: 100px 25px;
+}
+
+.section-heading {
+    display: grid;
+    grid-template-columns: 1fr .6fr;
+    gap: 60px;
+
+    margin-bottom: 55px;
+}
+
+.section-heading h2,
+.quiz-intro h2,
+.help-heading h2,
+.references h2 {
+    margin-top: 12px;
+
+    font-family: "Space Grotesk";
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    line-height: 1;
+    letter-spacing: -2px;
+}
+
+.section-heading > p {
+    color: var(--gray);
+    align-self: end;
+}
+
+
+/* CARDS */
+
+.types-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.type-card {
+    min-height: 280px;
+
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+
+    padding: 27px;
+
+    position: relative;
+    overflow: hidden;
+
+    transition: .35s;
+}
+
+.type-card:hover {
+    transform: translateY(-7px);
+    border-color: rgba(255,60,172,.4);
+
+    box-shadow:
+        0 20px 50px rgba(0,0,0,.3);
+}
+
+.type-card > span {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+
+    color: #49404f;
+    font-size: .8rem;
+}
+
+.type-icon {
+    width: 48px;
+    height: 48px;
+
+    border-radius: 14px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 40px;
+}
+
+.type-icon.pink {
+    background: rgba(255,60,172,.1);
+    color: var(--pink);
+}
+
+.type-icon.purple {
+    background: rgba(139,61,255,.12);
+    color: var(--purple-light);
+}
+
+.type-card h3 {
+    font-family: "Space Grotesk";
+    font-size: 1.5rem;
+}
+
+.type-card p {
+    color: var(--gray);
+    font-size: .86rem;
+    margin: 8px 0 20px;
+}
+
+.learn-more {
+    background: none;
+    border: none;
+
+    color: var(--pink);
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+.special-card {
+    background:
+        linear-gradient(
+            135deg,
+            var(--purple),
+            var(--pink)
+        );
+
+    border: none;
+}
+
+.special-content {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.special-content > i {
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.special-content h3 {
+    font-family: "Space Grotesk";
+    font-size: 1.7rem;
+    max-width: 230px;
+}
+
+.special-content a {
+    margin-top: 20px;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+
+/* QUIZ */
+
+.quiz-section {
+    padding: 130px 25px;
+
+    background:
+        radial-gradient(
+            circle at 50% 20%,
+            rgba(139,61,255,.15),
+            transparent 40%
+        ),
+        #0a070d;
+}
+
+.quiz-intro {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.quiz-intro p {
+    color: var(--gray);
+    max-width: 600px;
+    margin: 25px auto;
+}
+
+.quiz-box {
+    max-width: 750px;
+    margin: 50px auto 0;
+
+    padding: 35px;
+
+    background: #120d17;
+    border: 1px solid var(--border);
+    border-radius: 25px;
+
+    box-shadow: var(--shadow);
+}
+
+.quiz-progress {
+    margin-bottom: 45px;
+}
+
+.quiz-progress span {
+    color: #8d8493;
+    font-size: .75rem;
+}
+
+.progress {
+    width: 100%;
+    height: 5px;
+
+    background: #29212f;
+    border-radius: 10px;
+
+    margin-top: 10px;
+}
+
+#progressBar {
+    height: 100%;
+    width: 20%;
+
+    background: linear-gradient(
+        90deg,
+        var(--purple),
+        var(--pink)
+    );
+
+    border-radius: 10px;
+
+    transition: .4s;
+}
+
+#question {
+    font-family: "Space Grotesk";
+    font-size: 1.7rem;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.answer {
+    width: 100%;
+    text-align: left;
+
+    padding: 16px 18px;
+    margin-bottom: 10px;
+
+    border-radius: 12px;
+    border: 1px solid var(--border);
+
+    background: #19131f;
+    color: #d9d2dd;
+
+    cursor: pointer;
+
+    transition: .25s;
+}
+
+.answer:hover {
+    border-color: var(--purple);
+}
+
+.answer.selected {
+    background: rgba(139,61,255,.15);
+    border-color: var(--purple-light);
+}
+
+.answer.correct {
+    background: rgba(30,180,110,.12);
+    border-color: #30d98c;
+}
+
+.answer.wrong {
+    background: rgba(255,60,100,.1);
+    border-color: #ff466f;
+}
+
+.quiz-next {
+    margin-top: 20px;
+
+    width: 100%;
+    padding: 14px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: var(--purple);
+    color: white;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    opacity: .4;
+}
+
+.quiz-next:not(:disabled) {
+    opacity: 1;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.quiz-result {
+    text-align: center;
+}
+
+.result-icon {
+    width: 75px;
+    height: 75px;
+
+    margin: auto;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(
+        135deg,
+        var(--purple),
+        var(--pink)
+    );
+
+    font-size: 1.8rem;
+}
+
+.quiz-result > p {
+    margin-top: 25px;
+    color: var(--gray);
+    font-size: .7rem;
+    letter-spacing: 2px;
+}
+
+.quiz-result strong {
+    display: block;
+
+    font-family: "Space Grotesk";
+    font-size: 5rem;
+
+    background: linear-gradient(
+        90deg,
+        var(--pink),
+        var(--purple-light)
+    );
+
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+/* ESCUTA */
+
+.listening {
+    padding-top: 130px;
+}
+
+.listening-grid {
+    display: grid;
+    grid-template-columns: .8fr 1.2fr;
+    gap: 25px;
+}
+
+.listening-message,
+.listen-form {
+    padding: 35px;
+
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 22px;
+}
+
+.quote {
+    font-family: Georgia;
+    font-size: 6rem;
+    color: var(--pink);
+    line-height: .7;
+}
+
+.listening-message h3 {
+    margin-top: 30px;
+
+    font-family: "Space Grotesk";
+    font-size: 2rem;
+}
+
+.listening-message p {
+    margin-top: 15px;
+    color: var(--gray);
+}
+
+.support-tip {
+    margin-top: 35px;
+
+    padding: 15px;
+
+    background: rgba(139,61,255,.1);
+    border-radius: 12px;
+
+    display: flex;
+    gap: 12px;
+
+    font-size: .8rem;
+}
+
+.support-tip i {
+    color: var(--purple-light);
+}
+
+.listen-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.listen-form label {
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+textarea {
+    min-height: 260px;
+    resize: vertical;
+
+    padding: 18px;
+
+    border: 1px solid var(--border);
+    border-radius: 14px;
+
+    background: #0c0910;
+    color: white;
+
+    outline: none;
+
+    font-family: inherit;
+}
+
+textarea:focus {
+    border-color: var(--purple);
+}
+
+.listen-form .btn {
+    margin-top: 15px;
+}
+
+.support-response {
+    margin-top: 15px;
+
+    padding: 16px;
+
+    border-radius: 12px;
+
+    background: rgba(255,60,172,.08);
+    border: 1px solid rgba(255,60,172,.2);
+
+    color: #e6dce9;
+
+    font-size: .85rem;
+}
+
+
+/* HELP */
+
+.help-section {
+    padding: 130px 25px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #100816,
+            #080509
+        );
+}
+
+.help-heading {
+    max-width: 1250px;
+    margin: auto;
+}
+
+.help-heading p {
+    margin-top: 20px;
+    color: var(--gray);
+}
+
+.help-grid {
+    max-width: 1250px;
+    margin: 50px auto 0;
+
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr;
+    gap: 16px;
+}
+
+.help-card {
+    padding: 35px;
+    min-height: 300px;
+
+    border: 1px solid var(--border);
+    border-radius: 20px;
+
+    background: #130d18;
+}
+
+.help-card h3 {
+    font-family: "Space Grotesk";
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+
+.help-card p {
+    color: var(--gray);
+    margin-top: 12px;
+    font-size: .85rem;
+}
+
+.help-number {
+    font-family: "Space Grotesk";
+    font-size: 4.5rem;
+    font-weight: 900;
+
+    background: linear-gradient(
+        90deg,
+        var(--pink),
+        var(--purple-light)
+    );
+
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.main-help a {
+    display: inline-flex;
+    gap: 8px;
+    margin-top: 25px;
+
+    color: var(--pink);
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.help-icon {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 14px;
+
+    background: rgba(139,61,255,.12);
+    color: var(--purple-light);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emergency {
+    border-color: rgba(255,60,100,.3);
+}
+
+.emergency strong {
+    display: block;
+
+    margin-top: 15px;
+
+    font-family: "Space Grotesk";
+    font-size: 2.5rem;
+
+    color: var(--pink);
+}
+
+.important-note {
+    max-width: 1250px;
+    margin: 25px auto 0;
+
+    padding: 18px;
+
+    display: flex;
+    gap: 15px;
+
+    border-radius: 14px;
+
+    background: rgba(255,255,255,.025);
+    color: #8f8796;
+
+    font-size: .78rem;
+}
+
+.important-note i {
+    color: var(--pink);
+}
+
+
+/* REFERÊNCIAS */
+
+.references {
+    padding-bottom: 130px;
+}
+
+.reference-list {
+    margin-top: 50px;
+
+    border-top: 1px solid var(--border);
+}
+
+.reference-list a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 5px;
+
+    border-bottom: 1px solid var(--border);
+
+    color: #c8c0cc;
+
+    transition: .3s;
+}
+
+.reference-list a:hover {
+    color: var(--pink);
+    padding-left: 15px;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 60px 25px;
+    text-align: center;
+
+    border-top: 1px solid var(--border);
+
+    color: #6d6572;
+}
+
+.footer-logo {
+    font-family: "Space Grotesk";
+    font-size: 2rem;
+    font-weight: 900;
+
+    color: var(--pink);
+}
+
+footer p {
+    margin-top: 8px;
+    font-size: .8rem;
+}
+
+footer small {
+    display: block;
+    margin-top: 25px;
+}
+
+
+/* MODAL */
+
+.modal {
+    position: fixed;
+    inset: 0;
+
+    background: rgba(0,0,0,.75);
+    backdrop-filter: blur(8px);
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 3000;
+}
+
+.modal.active {
+    display: flex;
+}
+
+.modal-box {
+    width: min(500px, 90%);
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    background: #18111e;
+    border: 1px solid var(--border);
+
+    position: relative;
+
+    box-shadow: var(--shadow);
+}
+
+.modal-box > i {
+    font-size: 2rem;
+    color: var(--pink);
+    margin-bottom: 20px;
+}
+
+.close-modal {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+
+    background: none;
+    border: none;
+
+    color: white;
+    font-size: 1.7rem;
+
+    cursor: pointer;
+}
+
+
+/* TOP */
+
+.top-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: linear-gradient(
+        135deg,
+        var(--purple),
+        var(--pink)
+    );
+
+    color: white;
+
+    cursor: pointer;
+
+    display: none;
+    z-index: 1000;
+}
+
+.top-btn.visible {
+    display: block;
+}
+
+
+/* CONTRASTE */
+
+body.high-contrast {
+    --black: #000;
+    --card: #000;
+    --purple: #fff;
+    --pink: #fff;
+    --purple-light: #fff;
+    --gray: #fff;
+}
+
+body.high-contrast * {
+    border-color: white !important;
+}
+
+
+/* RESPONSIVO */
+
+@media(max-width: 900px) {
+
+    .nav-links {
+        position: absolute;
+        top: 82px;
+        left: 0;
+
+        width: 100%;
+
+        background: #0d0910;
+
+        flex-direction: column;
+        align-items: center;
+
+        padding: 30px;
+
+        display: none;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .hero-content > p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-note {
+        justify-content: center;
+    }
+
+    .section-heading,
+    .listening-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .types-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .help-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media(max-width: 600px) {
+
+    .hero h1 {
+        letter-spacing: -3px;
+    }
+
+    .hero-visual {
+        min-height: 400px;
+    }
+
+    .hero-card {
+        width: 270px;
+        height: 350px;
+    }
+
+    .hero-symbol {
+        font-size: 7rem;
+    }
+
+    .statement {
+        grid-template-columns: 1fr;
+    }
+
+    .types-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .quiz-box {
+        padding: 22px;
+    }
+
+    .accessibility {
+        display: none;
+    }
+
+}
+/* =========================
+   MENU MOBILE
+========================= */
+
+const menuBtn = document.getElementById("menuBtn");
+const navLinks = document.getElementById("navLinks");
+
+menuBtn.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
+
+
+/* Fecha menu ao clicar */
+
+document.querySelectorAll(".nav-links a").forEach(link => {
+
+    link.addEventListener("click", () => {
+        navLinks.classList.remove("active");
+    });
+
+});
+
+
+/* =========================
+   QUIZ
+========================= */
+
+const questions = [
+
+    {
+        question: "Uma pessoa controla constantemente o celular, as amizades e os horários da parceira. Isso pode ser violência?",
+
+        answers: [
+            "Não, porque é apenas preocupação.",
+            "Sim, pode ser violência psicológica.",
+            "Não, se houver relacionamento.",
+            "Somente se houver agressão física."
+        ],
+
+        correct: 1
+    },
+
+    {
+        question: "Qual destas atitudes pode caracterizar violência patrimonial?",
+
+        answers: [
+            "Respeitar a decisão da mulher.",
+            "Dividir as despesas da casa.",
+            "Reter ou destruir documentos e bens.",
+            "Conversar sobre dinheiro."
+        ],
+
+        correct: 2
+    },
+
+    {
+        question: "Qual é o canal oficial de atendimento à mulher em situação de violência que funciona 24 horas?",
+
+        answers: [
+            "Ligue 180",
+            "Ligue 123",
+            "Ligue 150",
+            "Ligue 999"
+        ],
+
+        correct: 0
+    },
+
+    {
+        question: "Em uma situação de emergência ou risco iminente, qual número deve ser acionado?",
+
+        answers: [
+            "181",
+            "180",
+            "190",
+            "192"
+        ],
+
+        correct: 2
+    },
+
+    {
+        question: "Se uma estudante estiver passando por uma situação difícil, qual atitude pode ser um primeiro passo importante?",
+
+        answers: [
+            "Guardar tudo para si.",
+            "Culpar a própria vítima.",
+            "Procurar um adulto de confiança ou serviço especializado.",
+            "Ignorar a situação."
+        ],
+
+        correct: 2
+    }
+
+];
+
+
+let currentQuestion = 0;
+let score = 0;
+let selectedAnswer = null;
+
+
+const questionElement = document.getElementById("question");
+const answersElement = document.getElementById("answers");
+const nextBtn = document.getElementById("nextBtn");
+
+const questionNumber =
+    document.getElementById("questionNumber");
+
+const progressBar =
+    document.getElementById("progressBar");
+
+const quizContent =
+    document.getElementById("quizContent");
+
+const quizResult =
+    document.getElementById("quizResult");
+
+const scoreElement =
+    document.getElementById("score");
+
+const resultMessage =
+    document.getElementById("resultMessage");
+
+const resultText =
+    document.getElementById("resultText");
+
+
+function loadQuestion() {
+
+    selectedAnswer = null;
+
+    const current = questions[currentQuestion];
+
+    questionElement.textContent = current.question;
+
+    answersElement.innerHTML = "";
+
+    questionNumber.textContent =
+        `Pergunta ${currentQuestion + 1} de ${questions.length}`;
+
+    progressBar.style.width =
+        `${((currentQuestion + 1) / questions.length) * 100}%`;
+
+    nextBtn.disabled = true;
+
+
+    current.answers.forEach((answer, index) => {
+
+        const button = document.createElement("button");
+
+        button.classList.add("answer");
+
+        button.textContent = answer;
+
+        button.addEventListener("click", () => {
+
+            if (selectedAnswer !== null) return;
+
+            selectedAnswer = index;
+
+            document
+                .querySelectorAll(".answer")
+                .forEach(btn => btn.classList.remove("selected"));
+
+            button.classList.add("selected");
+
+            nextBtn.disabled = false;
+
+        });
+
+        answersElement.appendChild(button);
+
+    });
+
+}
+
+
+nextBtn.addEventListener("click", () => {
+
+    const current = questions[currentQuestion];
+
+    const answerButtons =
+        document.querySelectorAll(".answer");
+
+    answerButtons.forEach((button, index) => {
+
+        button.disabled = true;
+
+        if (index === current.correct) {
+            button.classList.add("correct");
+        }
+
+        if (
+            index === selectedAnswer &&
+            selectedAnswer !== current.correct
+        ) {
+            button.classList.add("wrong");
+        }
+
+    });
+
+
+    if (selectedAnswer === current.correct) {
+        score++;
+    }
+
+
+    nextBtn.textContent =
+        currentQuestion === questions.length - 1
+            ? "Ver resultado"
+            : "Continuar";
+
+
+    setTimeout(() => {
+
+        currentQuestion++;
+
+        if (currentQuestion < questions.length) {
+
+            nextBtn.innerHTML =
+                `Próxima <i class="fa-solid fa-arrow-right"></i>`;
+
+            loadQuestion();
+
+        } else {
+
+            showResult();
+
+        }
+
+    }, 700);
+
+});
+
+
+function showResult() {
+
+    quizContent.classList.add("hidden");
+
+    quizResult.classList.remove("hidden");
+
+    scoreElement.textContent =
+        `${score}/${questions.length}`;
+
+
+    if (score === 5) {
+
+        resultMessage.textContent =
+            "Excelente!";
+
+        resultText.textContent =
+            "Você demonstrou conhecer muito bem os principais conceitos.";
+
+    }
+
+    else if (score >= 3) {
+
+        resultMessage.textContent =
+            "Muito bem!";
+
+        resultText.textContent =
+            "Você já conhece pontos importantes, mas ainda pode aprender mais.";
+
+    }
+
+    else {
+
+        resultMessage.textContent =
+            "Continue aprendendo!";
+
+        resultText.textContent =
+            "Conhecimento ajuda a reconhecer situações e saber onde buscar apoio.";
+
+    }
+
+}
+
+
+document.getElementById("restartQuiz")
+    .addEventListener("click", () => {
+
+        currentQuestion = 0;
+        score = 0;
+
+        quizResult.classList.add("hidden");
+        quizContent.classList.remove("hidden");
+
+        loadQuestion();
+
+        document
+            .getElementById("teste")
+            .scrollIntoView({
+                behavior: "smooth"
+            });
+
+    });
+
+
+loadQuestion();
+
+
+/* =========================
+   PORTAL DE ESCUTA
+========================= */
+
+const listenForm =
+    document.getElementById("listenForm");
+
+const supportResponse =
+    document.getElementById("supportResponse");
+
+listenForm.addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    supportResponse.classList.remove("hidden");
+
+    supportResponse.innerHTML = `
+        <strong>💜 Obrigada por compartilhar.</strong>
+        <br><br>
+        Seus sentimentos importam e você merece ser tratada com respeito.
+        Se essa situação estiver acontecendo de verdade, procure uma pessoa
+        adulta de confiança ou um serviço especializado.
+        <br><br>
+        <strong>Este formulário é apenas uma simulação e nenhuma informação
+        foi armazenada.</strong>
+    `;
+
+    document.getElementById("message").value = "";
+
+});
+
+
+/* =========================
+   MODAL DOS TIPOS DE VIOLÊNCIA
+========================= */
+
+const modal =
+    document.getElementById("infoModal");
+
+const modalText =
+    document.getElementById("modalText");
+
+const closeModal =
+    document.getElementById("closeModal");
+
+
+document.querySelectorAll(".learn-more").forEach(button => {
+
+    button.addEventListener("click", () => {
+
+        modalText.textContent =
+            button.dataset.info;
+
+        modal.classList.add("active");
+
+    });
+
+});
+
+
+closeModal.addEventListener("click", () => {
+
+    modal.classList.remove("active");
+
+});
+
+
+modal.addEventListener("click", event => {
+
+    if (event.target === modal) {
+        modal.classList.remove("active");
+    }
+
+});
+
+
+/* =========================
+   ACESSIBILIDADE
+========================= */
+
+const root =
+    document.documentElement;
+
+let fontSize = 1;
+
+
+document
+    .getElementById("fontIncrease")
+    .addEventListener("click", () => {
+
+        if (fontSize < 1.25) {
+
+            fontSize += .05;
+
+            root.style.setProperty(
+                "--font-size",
+                fontSize
+            );
+
+        }
+
+    });
+
+
+document
+    .getElementById("fontDecrease")
+    .addEventListener("click", () => {
+
+        if (fontSize > .85) {
+
+            fontSize -= .05;
+
+            root.style.setProperty(
+                "--font-size",
+                fontSize
+            );
+
+        }
+
+    });
+
+
+document
+    .getElementById("contrastBtn")
+    .addEventListener("click", () => {
+
+        document.body.classList.toggle(
+            "high-contrast"
+        );
+
+    });
+
+
+/* =========================
+   VOLTAR AO TOPO
+========================= */
+
+const topBtn =
+    document.getElementById("topBtn");
+
+
+window.addEventListener("scroll", () => {
+
+    if (window.scrollY > 500) {
+
+        topBtn.classList.add("visible");
+
+    } else {
+
+        topBtn.classList.remove("visible");
+
+    }
+
+});
+
+
+topBtn.addEventListener("click", () => {
+
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+
+});
