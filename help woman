@@ -5,156 +5,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>ELAS | Informação que protege</title>
+    <title>Você Não Está Sozinha</title>
 
-    <meta name="description"
-        content="Portal educativo sobre violência contra a mulher, informação, acolhimento e caminhos para buscar ajuda.">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta
+        name="description"
+        content="Informação, acolhimento e apoio para mulheres que enfrentam violência."
+    >
 
     <link rel="stylesheet" href="style.css">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet"
+    >
 </head>
 
 <body>
 
-    <!-- BOTÕES DE ACESSIBILIDADE -->
-
-    <div class="accessibility">
-        <button id="fontIncrease" title="Aumentar fonte">
-            A+
-        </button>
-
-        <button id="fontDecrease" title="Diminuir fonte">
-            A-
-        </button>
-
-        <button id="contrastBtn" title="Alto contraste">
-            ◐
-        </button>
-    </div>
+    <!-- BOTÃO DE SAÍDA -->
+    <button class="exit-button" onclick="quickExit()">
+        ✕ Sair rapidamente
+    </button>
 
 
-    <!-- MENU -->
+    <!-- NAVEGAÇÃO -->
 
-    <header class="header">
+    <header>
 
         <nav class="navbar">
 
-            <a href="#inicio" class="logo">
-                <span>ELAS</span>
-                <small>informação que protege</small>
-            </a>
+            <div class="logo">
+                <span>✿</span>
+                Você Não Está Sozinha
+            </div>
 
-            <button class="menu-btn" id="menuBtn">
-                <i class="fa-solid fa-bars"></i>
-            </button>
+            <div class="nav-links">
 
-            <ul class="nav-links" id="navLinks">
+                <a href="#inicio">Início</a>
+                <a href="#quiz">Quiz</a>
+                <a href="#sinais">Sinais</a>
+                <a href="#ajuda">Ajuda</a>
 
-                <li>
-                    <a href="#inicio">Início</a>
-                </li>
-
-                <li>
-                    <a href="#entenda">Entenda</a>
-                </li>
-
-                <li>
-                    <a href="#teste">Teste</a>
-                </li>
-
-                <li>
-                    <a href="#escuta">Escuta</a>
-                </li>
-
-                <li>
-                    <a href="#ajuda">Ajuda</a>
-                </li>
-
-            </ul>
+            </div>
 
         </nav>
 
     </header>
 
 
-    <main>
+    <!-- HERO -->
 
-        <!-- HERO -->
+    <main id="inicio">
 
-        <section class="hero" id="inicio">
-
-            <div class="hero-glow"></div>
+        <section class="hero">
 
             <div class="hero-content">
 
                 <span class="tag">
-                    <i class="fa-solid fa-heart"></i>
-                    PORTAL DE APOIO AO ESTUDANTE
+                    UM ESPAÇO DE ACOLHIMENTO
                 </span>
 
                 <h1>
-                    Informação
-                    <span>também protege.</span>
+                    Nem toda violência
+                    <span>deixa marcas visíveis.</span>
                 </h1>
 
                 <p>
-                    Um espaço para entender, reconhecer situações de violência
-                    contra a mulher e descobrir caminhos para buscar apoio.
+                    Controle, humilhação, ameaças, isolamento e medo
+                    também podem ser sinais de violência.
+                    Você merece respeito, segurança e liberdade.
                 </p>
 
                 <div class="hero-buttons">
 
-                    <a href="#teste" class="btn btn-primary">
-                        Fazer o teste
-                        <i class="fa-solid fa-arrow-right"></i>
+                    <a href="#quiz" class="btn primary">
+                        Fazer o quiz →
                     </a>
 
-                    <a href="#entenda" class="btn btn-outline">
-                        Quero entender
+                    <a href="#ajuda" class="btn secondary">
+                        Preciso de ajuda
                     </a>
 
-                </div>
-
-                <div class="hero-note">
-                    <i class="fa-solid fa-shield-heart"></i>
-                    Você não precisa enfrentar uma situação difícil sozinha.
                 </div>
 
             </div>
 
 
-            <div class="hero-visual">
+            <div class="hero-image">
 
-                <div class="circle circle-one"></div>
-                <div class="circle circle-two"></div>
+                <div class="image-card">
 
-                <div class="hero-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=80"
+                        alt="Mulher sorrindo"
+                    >
 
-                    <div class="card-top">
-                        <span>ELAS</span>
+                    <div class="floating-card">
 
-                        <i class="fa-solid fa-shield-halved"></i>
+                        <span>💜</span>
+
+                        <div>
+                            <strong>Você importa.</strong>
+                            <small>Você merece ser ouvida.</small>
+                        </div>
+
                     </div>
-
-                    <div class="hero-symbol">
-                        ♀
-                    </div>
-
-                    <h3>
-                        Respeito não é opção.
-                    </h3>
-
-                    <p>
-                        É direito.
-                    </p>
 
                 </div>
 
@@ -165,26 +125,19 @@
 
         <!-- FRASE -->
 
-        <section class="statement">
+        <section class="quote-section">
 
-            <div class="statement-number">
-                01
-            </div>
-
-            <div>
-
-                <p class="mini-title">
-                    POR QUE ESTE PORTAL EXISTE?
-                </p>
+            <div class="quote">
+                <span>“</span>
 
                 <h2>
-                    Nem toda violência deixa uma marca visível.
+                    O amor não controla,
+                    não ameaça e não machuca.
                 </h2>
 
                 <p>
-                    Controle, humilhação, ameaças, perseguição e outras atitudes
-                    também podem ser formas de violência. Conhecer esses sinais
-                    ajuda a identificar situações de risco e procurar apoio.
+                    Um relacionamento saudável respeita seus limites,
+                    sua liberdade e suas escolhas.
                 </p>
 
             </div>
@@ -192,243 +145,73 @@
         </section>
 
 
-        <!-- ENTENDA -->
+        <!-- QUIZ -->
 
-        <section class="section" id="entenda">
+        <section id="quiz" class="section quiz-section">
 
-            <div class="section-heading">
+            <div class="section-title">
 
-                <div>
-                    <span class="eyebrow">02 / ENTENDA</span>
-
-                    <h2>
-                        Violência não é
-                        <span>apenas agressão física.</span>
-                    </h2>
-                </div>
-
-                <p>
-                    A violência contra a mulher pode aparecer de diferentes
-                    maneiras. Conheça algumas delas.
-                </p>
-
-            </div>
-
-
-            <div class="types-grid">
-
-                <article class="type-card">
-
-                    <div class="type-icon pink">
-                        <i class="fa-solid fa-hand-fist"></i>
-                    </div>
-
-                    <span>01</span>
-
-                    <h3>Física</h3>
-
-                    <p>
-                        Qualquer ação que prejudique a integridade ou a saúde
-                        do corpo da mulher.
-                    </p>
-
-                    <button class="learn-more"
-                        data-info="Empurrões, tapas, socos, queimaduras e outras agressões que causem dano corporal podem caracterizar violência física.">
-                        Saiba mais
-                    </button>
-
-                </article>
-
-
-                <article class="type-card">
-
-                    <div class="type-icon purple">
-                        <i class="fa-solid fa-brain"></i>
-                    </div>
-
-                    <span>02</span>
-
-                    <h3>Psicológica</h3>
-
-                    <p>
-                        Comportamentos que causam sofrimento emocional,
-                        medo ou diminuem a autoestima.
-                    </p>
-
-                    <button class="learn-more"
-                        data-info="Ameaças, humilhações, chantagens, manipulação, isolamento, perseguição e controle podem ser formas de violência psicológica.">
-                        Saiba mais
-                    </button>
-
-                </article>
-
-
-                <article class="type-card">
-
-                    <div class="type-icon pink">
-                        <i class="fa-solid fa-heart-crack"></i>
-                    </div>
-
-                    <span>03</span>
-
-                    <h3>Sexual</h3>
-
-                    <p>
-                        Qualquer situação que viole a liberdade e os direitos
-                        sexuais e reprodutivos.
-                    </p>
-
-                    <button class="learn-more"
-                        data-info="Forçar ou pressionar uma mulher a participar de uma relação sexual sem consentimento é uma forma de violência.">
-                        Saiba mais
-                    </button>
-
-                </article>
-
-
-                <article class="type-card">
-
-                    <div class="type-icon purple">
-                        <i class="fa-solid fa-wallet"></i>
-                    </div>
-
-                    <span>04</span>
-
-                    <h3>Patrimonial</h3>
-
-                    <p>
-                        Envolve bens, documentos, dinheiro e recursos
-                        econômicos da mulher.
-                    </p>
-
-                    <button class="learn-more"
-                        data-info="Reter, destruir ou controlar documentos, dinheiro, bens e instrumentos de trabalho pode caracterizar violência patrimonial.">
-                        Saiba mais
-                    </button>
-
-                </article>
-
-
-                <article class="type-card">
-
-                    <div class="type-icon pink">
-                        <i class="fa-solid fa-comment-slash"></i>
-                    </div>
-
-                    <span>05</span>
-
-                    <h3>Moral</h3>
-
-                    <p>
-                        Ações que atingem a honra, a reputação ou a dignidade
-                        da mulher.
-                    </p>
-
-                    <button class="learn-more"
-                        data-info="Calúnia, difamação e injúria são formas de violência moral previstas na legislação.">
-                        Saiba mais
-                    </button>
-
-                </article>
-
-
-                <article class="type-card special-card">
-
-                    <div class="special-content">
-
-                        <i class="fa-solid fa-circle-question"></i>
-
-                        <h3>
-                            Será que você
-                            reconheceria?
-                        </h3>
-
-                        <a href="#teste">
-                            Descubra no teste
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-
-                    </div>
-
-                </article>
-
-            </div>
-
-        </section>
-
-
-        <!-- TESTE -->
-
-        <section class="quiz-section" id="teste">
-
-            <div class="quiz-intro">
-
-                <span class="eyebrow">03 / TESTE RÁPIDO</span>
+                <span class="tag">
+                    QUIZ INTERATIVO
+                </span>
 
                 <h2>
-                    Você sabe
-                    <span>reconhecer?</span>
+                    Como está o seu relacionamento?
                 </h2>
 
                 <p>
-                    Responda 5 perguntas e veja quanto você sabe sobre
-                    respeito, violência e formas de buscar ajuda.
+                    Responda algumas perguntas sobre situações
+                    que podem acontecer em um relacionamento.
                 </p>
 
             </div>
 
 
-            <div class="quiz-box">
+            <div class="quiz-container">
 
-                <div class="quiz-progress">
+                <div id="quiz-progress">
 
-                    <span id="questionNumber">
-                        Pergunta 1 de 5
+                    <div class="progress-bar">
+
+                        <div id="progress"></div>
+
+                    </div>
+
+                    <span id="question-number">
+                        Pergunta 1 de 10
                     </span>
 
-                    <div class="progress">
-                        <div id="progressBar"></div>
-                    </div>
-
                 </div>
 
 
-                <div id="quizContent">
+                <div id="question-box">
 
                     <h3 id="question">
-                        Carregando pergunta...
+                        Carregando...
                     </h3>
 
                     <div id="answers"></div>
 
-                    <button id="nextBtn" class="quiz-next" disabled>
-                        Próxima
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </button>
-
                 </div>
 
 
-                <div id="quizResult" class="quiz-result hidden">
+                <div id="quiz-result" class="hidden">
 
-                    <div class="result-icon">
-                        <i class="fa-solid fa-trophy"></i>
+                    <div id="result-icon">
+                        💜
                     </div>
 
-                    <p>SEU RESULTADO</p>
+                    <h2 id="result-title">
+                        Resultado
+                    </h2>
 
-                    <strong id="score">
-                        0/5
-                    </strong>
+                    <p id="result-text"></p>
 
-                    <h3 id="resultMessage">
-                        Muito bem!
-                    </h3>
-
-                    <p id="resultText"></p>
-
-                    <button id="restartQuiz" class="btn btn-primary">
-                        Refazer teste
+                    <button
+                        class="btn primary"
+                        onclick="restartQuiz()"
+                    >
+                        Refazer o quiz
                     </button>
 
                 </div>
@@ -438,80 +221,198 @@
         </section>
 
 
-        <!-- ESCUTA -->
+        <!-- SINAIS -->
 
-        <section class="section listening" id="escuta">
+        <section id="sinais" class="section signs-section">
 
-            <div class="section-heading">
+            <div class="section-title">
 
-                <div>
-                    <span class="eyebrow">04 / PORTAL DE ESCUTA</span>
+                <span class="tag">
+                    RECONHEÇA OS SINAIS
+                </span>
 
-                    <h2>
-                        Às vezes,
-                        <span>falar ajuda.</span>
-                    </h2>
-                </div>
+                <h2>
+                    Isso também pode ser violência.
+                </h2>
 
                 <p>
-                    Este espaço é apenas uma simulação educativa.
-                    Nenhuma mensagem será armazenada.
+                    Nem sempre a violência começa com agressão física.
                 </p>
 
             </div>
 
 
-            <div class="listening-grid">
+            <div class="cards">
 
-                <div class="listening-message">
+                <article class="info-card">
 
-                    <div class="quote">
-                        “
-                    </div>
+                    <div class="card-icon">🧠</div>
 
-                    <h3>
-                        O que você sente importa.
-                    </h3>
+                    <h3>Violência psicológica</h3>
 
                     <p>
-                        Você pode escrever o que gostaria de colocar para
-                        fora. Depois de enviar, uma mensagem de acolhimento
-                        aparecerá na tela.
+                        Humilhações, ameaças, manipulação,
+                        controle e medo constante.
                     </p>
 
-                    <div class="support-tip">
+                </article>
 
-                        <i class="fa-solid fa-lightbulb"></i>
 
-                        <span>
-                            Se algo estiver acontecendo com você,
-                            procure um adulto de confiança.
-                        </span>
+                <article class="info-card">
 
-                    </div>
+                    <div class="card-icon">💰</div>
+
+                    <h3>Violência patrimonial</h3>
+
+                    <p>
+                        Controle do dinheiro, documentos,
+                        cartões ou destruição de objetos.
+                    </p>
+
+                </article>
+
+
+                <article class="info-card">
+
+                    <div class="card-icon">❤️</div>
+
+                    <h3>Violência sexual</h3>
+
+                    <p>
+                        Ignorar seu consentimento ou pressionar
+                        você a fazer algo que não deseja.
+                    </p>
+
+                </article>
+
+
+                <article class="info-card">
+
+                    <div class="card-icon">🗣️</div>
+
+                    <h3>Violência moral</h3>
+
+                    <p>
+                        Insultos, acusações, humilhações
+                        e difamações.
+                    </p>
+
+                </article>
+
+
+                <article class="info-card">
+
+                    <div class="card-icon">👊</div>
+
+                    <h3>Violência física</h3>
+
+                    <p>
+                        Empurrões, tapas, socos e
+                        outras agressões físicas.
+                    </p>
+
+                </article>
+
+
+                <article class="info-card">
+
+                    <div class="card-icon">🚪</div>
+
+                    <h3>Isolamento</h3>
+
+                    <p>
+                        Impedir você de ver amigos,
+                        familiares ou pessoas de confiança.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- AMOR OU CONTROLE -->
+
+        <section class="game-section">
+
+            <div class="game-content">
+
+                <span class="tag">
+                    VOCÊ CONSEGUE IDENTIFICAR?
+                </span>
+
+                <h2>
+                    Amor ou controle?
+                </h2>
+
+                <p id="game-text">
+                    “Me manda sua localização.
+                    É porque eu me preocupo com você.”
+                </p>
+
+                <div class="game-buttons">
+
+                    <button
+                        onclick="gameAnswer('amor')"
+                        class="game-btn"
+                    >
+                        ❤️ Amor
+                    </button>
+
+                    <button
+                        onclick="gameAnswer('controle')"
+                        class="game-btn"
+                    >
+                        🚩 Controle
+                    </button>
 
                 </div>
 
+                <div id="game-feedback"></div>
 
-                <form id="listenForm" class="listen-form">
+            </div>
 
-                    <label for="message">
-                        Escreva seu desabafo
-                    </label>
+        </section>
 
-                    <textarea id="message"
-                        placeholder="Escreva aqui... lembre-se: este formulário é apenas uma simulação."
-                        required></textarea>
 
-                    <button type="submit" class="btn btn-primary">
-                        Enviar mensagem
-                        <i class="fa-solid fa-paper-plane"></i>
-                    </button>
+        <!-- HISTÓRIA -->
 
-                    <div id="supportResponse" class="support-response hidden">
-                    </div>
+        <section class="story-section">
 
-                </form>
+            <div class="story-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=900&q=80"
+                    alt="Mulher olhando pela janela"
+                >
+
+            </div>
+
+            <div class="story-content">
+
+                <span class="tag">
+                    UMA REFLEXÃO
+                </span>
+
+                <h2>
+                    “Ele só faz isso porque me ama.”
+                </h2>
+
+                <p>
+                    Ciúmes excessivos, controle, invasão de privacidade
+                    e medo não são provas de amor.
+                </p>
+
+                <p>
+                    Se você sente que precisa mudar quem é para evitar
+                    uma reação do seu parceiro, vale a pena conversar
+                    com alguém de confiança e buscar orientação.
+                </p>
+
+                <a href="#ajuda" class="text-link">
+                    Encontrar ajuda →
+                </a>
 
             </div>
 
@@ -520,155 +421,84 @@
 
         <!-- AJUDA -->
 
-        <section class="help-section" id="ajuda">
+        <section id="ajuda" class="help-section">
 
-            <div class="help-heading">
+            <div class="help-content">
 
-                <span class="eyebrow">
-                    05 / PRECISA DE AJUDA?
+                <span class="tag light">
+                    VOCÊ NÃO PRECISA PASSAR POR ISSO SOZINHA
                 </span>
 
                 <h2>
-                    Você não precisa
-                    <span>resolver tudo sozinha.</span>
+                    Precisa de ajuda?
                 </h2>
 
                 <p>
-                    Existem pessoas e serviços preparados para orientar
-                    e acolher.
+                    Se você estiver em perigo imediato, procure
+                    os serviços de emergência da sua região.
                 </p>
 
-            </div>
 
+                <div class="help-cards">
 
-            <div class="help-grid">
+                    <div class="help-card">
 
-                <article class="help-card main-help">
+                        <span>📞</span>
 
-                    <div class="help-number">
-                        180
+                        <div>
+
+                            <strong>180</strong>
+
+                            <p>
+                                Central de Atendimento à Mulher
+                            </p>
+
+                        </div>
+
                     </div>
 
-                    <h3>
-                        Ligue 180
-                    </h3>
 
-                    <p>
-                        Central de Atendimento à Mulher. Serviço gratuito,
-                        disponível 24 horas por dia.
-                    </p>
+                    <div class="help-card">
 
-                    <a href="https://www.gov.br/mulheres/pt-br/ligue180"
-                        target="_blank"
-                        rel="noopener noreferrer">
-                        Conhecer o serviço
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    </a>
+                        <span>🚨</span>
 
-                </article>
+                        <div>
 
+                            <strong>190</strong>
 
-                <article class="help-card emergency">
+                            <p>
+                                Emergência policial
+                            </p>
 
-                    <div class="help-icon">
-                        <i class="fa-solid fa-phone"></i>
+                        </div>
+
                     </div>
 
-                    <h3>
-                        Emergência
-                    </h3>
-
-                    <strong>190</strong>
-
-                    <p>
-                        Em uma situação de emergência ou risco iminente,
-                        procure a Polícia Militar.
-                    </p>
-
-                </article>
-
-
-                <article class="help-card">
-
-                    <div class="help-icon">
-                        <i class="fa-solid fa-people-arrows"></i>
-                    </div>
-
-                    <h3>
-                        Rede de apoio
-                    </h3>
-
-                    <p>
-                        Professor, pedagogo, direção da escola, familiares
-                        ou outro adulto de confiança também podem ajudar.
-                    </p>
-
-                </article>
-
-            </div>
-
-            <div class="important-note">
-
-                <i class="fa-solid fa-circle-info"></i>
-
-                <p>
-                    <strong>Importante:</strong> este site é um projeto
-                    educativo. Em uma situação real, procure ajuda de
-                    profissionais e serviços oficiais.
-                </p>
+                </div>
 
             </div>
 
         </section>
 
 
-        <!-- REFERÊNCIAS -->
+        <!-- MENSAGEM FINAL -->
 
-        <section class="references section" id="referencias">
+        <section class="final-section">
 
-            <span class="eyebrow">06 / REFERÊNCIAS</span>
+            <div class="flower">
+                ✿
+            </div>
 
             <h2>
-                De onde vêm
-                <span>essas informações?</span>
+                Você merece uma vida
+                sem medo.
             </h2>
 
-            <div class="reference-list">
-
-                <a href="https://www.gov.br/mulheres/pt-br/ligue180"
-                    target="_blank">
-                    <span>
-                        Ministério das Mulheres
-                    </span>
-
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-
-
-                <a href="https://www.gov.br/mj/pt-br/assuntos/sua-seguranca/seguranca-publica/susp-mulheres/violencia-domestica-e-familiar"
-                    target="_blank">
-
-                    <span>
-                        Ministério da Justiça e Segurança Pública
-                    </span>
-
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-
-                </a>
-
-
-                <a href="https://legis.senado.gov.br/norma/572125/publicacao/34620955"
-                    target="_blank">
-
-                    <span>
-                        Senado Federal — Lei Maria da Penha
-                    </span>
-
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-
-                </a>
-
-            </div>
+            <p>
+                Sua história importa.
+                Sua segurança importa.
+                Você importa.
+            </p>
 
         </section>
 
@@ -680,44 +510,19 @@
     <footer>
 
         <div class="footer-logo">
-            ELAS
+            ✿ Você Não Está Sozinha
         </div>
 
         <p>
-            Informação • Respeito • Acolhimento
+            Informação também é uma forma de proteção.
         </p>
 
         <small>
-            Projeto Individual — Portal de Apoio ao Estudante
+            Este site possui caráter informativo e não substitui
+            orientação profissional.
         </small>
 
     </footer>
-
-
-    <!-- MODAL -->
-
-    <div class="modal" id="infoModal">
-
-        <div class="modal-box">
-
-            <button class="close-modal" id="closeModal">
-                ×
-            </button>
-
-            <i class="fa-solid fa-shield-heart"></i>
-
-            <p id="modalText"></p>
-
-        </div>
-
-    </div>
-
-
-    <!-- VOLTAR AO TOPO -->
-
-    <button id="topBtn" class="top-btn">
-        <i class="fa-solid fa-arrow-up"></i>
-    </button>
 
 
     <script src="script.js"></script>
@@ -726,19 +531,23 @@
 
 </html>
 :root {
-    --black: #070509;
-    --black-2: #0d0912;
-    --purple: #8b3dff;
-    --purple-light: #b56cff;
-    --pink: #ff3cac;
-    --pink-light: #ff72c8;
+    --purple: #6f4b78;
+    --purple-dark: #432d4a;
+    --purple-light: #f3e9f4;
+
+    --pink: #c8758f;
+    --pink-light: #f8e7eb;
+
+    --cream: #fffaf7;
+    --text: #302832;
+    --muted: #766d76;
+
     --white: #ffffff;
-    --gray: #a9a2b2;
-    --card: #15101c;
-    --border: rgba(255,255,255,.09);
-    --shadow: 0 25px 70px rgba(0,0,0,.45);
-    --font-size: 1;
+
+    --shadow:
+        0 20px 60px rgba(72, 45, 75, 0.12);
 }
+
 
 * {
     margin: 0;
@@ -746,129 +555,132 @@
     box-sizing: border-box;
 }
 
+
 html {
     scroll-behavior: smooth;
-    font-size: calc(16px * var(--font-size));
 }
+
 
 body {
-    font-family: "Inter", sans-serif;
-    background: var(--black);
-    color: var(--white);
+    font-family: "DM Sans", sans-serif;
+
+    background: var(--cream);
+
+    color: var(--text);
+
     line-height: 1.6;
-    overflow-x: hidden;
 }
 
-body::selection {
-    background: var(--pink);
-    color: white;
+
+h1,
+h2 {
+    font-family: "Playfair Display", serif;
 }
+
+
+img {
+    width: 100%;
+    display: block;
+}
+
 
 a {
-    color: inherit;
     text-decoration: none;
+    color: inherit;
 }
 
-button {
-    font-family: inherit;
-}
 
-.header {
-    position: fixed;
-    width: 100%;
+/* NAVBAR */
+
+header {
+    position: absolute;
+
     top: 0;
-    z-index: 1000;
-    background: rgba(7,5,9,.78);
-    backdrop-filter: blur(18px);
-    border-bottom: 1px solid var(--border);
+    left: 0;
+
+    width: 100%;
+
+    z-index: 20;
 }
+
 
 .navbar {
-    max-width: 1250px;
+    max-width: 1200px;
+
     margin: auto;
-    height: 82px;
-    padding: 0 25px;
+
+    padding: 25px 30px;
 
     display: flex;
-    align-items: center;
+
     justify-content: space-between;
+
+    align-items: center;
 }
+
 
 .logo {
-    display: flex;
-    flex-direction: column;
+    color: var(--purple-dark);
+
+    font-weight: 700;
+
+    font-size: 18px;
 }
+
 
 .logo span {
-    font-family: "Space Grotesk";
-    font-size: 1.5rem;
-    font-weight: 900;
-    letter-spacing: 4px;
+    color: var(--pink);
 
-    background: linear-gradient(90deg, var(--pink), var(--purple-light));
-    -webkit-background-clip: text;
-    color: transparent;
+    font-size: 25px;
 }
 
-.logo small {
-    font-size: .55rem;
-    color: var(--gray);
-    letter-spacing: 1px;
-}
 
 .nav-links {
     display: flex;
-    list-style: none;
-    gap: 32px;
+
+    gap: 30px;
 }
 
+
 .nav-links a {
-    color: #c9c2cf;
-    font-size: .85rem;
+    color: var(--purple-dark);
+
+    font-size: 14px;
+
+    font-weight: 600;
+
     transition: .3s;
 }
+
 
 .nav-links a:hover {
     color: var(--pink);
 }
 
-.menu-btn {
-    display: none;
-    background: none;
-    color: white;
-    border: none;
-    font-size: 1.5rem;
-}
 
+/* EXIT */
 
-/* ACESSIBILIDADE */
-
-.accessibility {
+.exit-button {
     position: fixed;
-    right: 18px;
-    top: 100px;
-    z-index: 999;
 
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-}
+    right: 20px;
+    bottom: 20px;
 
-.accessibility button {
-    width: 38px;
-    height: 38px;
+    z-index: 100;
 
-    background: #18121e;
-    border: 1px solid var(--border);
-    border-radius: 10px;
+    border: none;
+
+    padding: 12px 18px;
+
+    border-radius: 50px;
+
+    background: #302832;
 
     color: white;
-    cursor: pointer;
-    transition: .3s;
-}
 
-.accessibility button:hover {
-    background: var(--purple);
+    cursor: pointer;
+
+    box-shadow: var(--shadow);
 }
 
 
@@ -876,1321 +688,935 @@ button {
 
 .hero {
     min-height: 100vh;
-    max-width: 1250px;
-    margin: auto;
-    padding: 150px 25px 80px;
 
     display: grid;
-    grid-template-columns: 1.1fr .9fr;
+
+    grid-template-columns: 1fr 1fr;
+
     align-items: center;
-    gap: 50px;
 
-    position: relative;
+    gap: 60px;
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 120px 30px 80px;
 }
 
-.hero-glow {
-    position: absolute;
-    width: 500px;
-    height: 500px;
 
-    background: radial-gradient(
-        circle,
-        rgba(139,61,255,.27),
-        transparent 70%
-    );
-
-    filter: blur(20px);
-    top: 100px;
-    right: 50px;
+.hero-content {
+    max-width: 570px;
 }
 
-.tag,
-.eyebrow {
-    color: var(--pink);
-    font-size: .72rem;
-    font-weight: 800;
-    letter-spacing: 2px;
-}
 
 .tag {
-    display: inline-flex;
-    align-items: center;
-    gap: 9px;
+    display: inline-block;
 
-    padding: 8px 13px;
+    color: var(--pink);
 
-    border: 1px solid rgba(255,60,172,.25);
-    border-radius: 30px;
+    font-size: 12px;
 
-    background: rgba(255,60,172,.06);
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 18px;
 }
+
 
 .hero h1 {
-    margin-top: 25px;
+    font-size: clamp(45px, 6vw, 76px);
 
-    font-family: "Space Grotesk";
-    font-size: clamp(3.5rem, 7vw, 7rem);
-    line-height: .93;
-    letter-spacing: -5px;
+    line-height: 1.05;
+
+    margin-bottom: 25px;
 }
 
-.hero h1 span,
-.section-heading h2 span,
-.quiz-intro h2 span,
-.help-heading h2 span,
-.references h2 span {
-    background: linear-gradient(
-        100deg,
-        var(--pink),
-        var(--purple-light)
-    );
 
-    -webkit-background-clip: text;
-    color: transparent;
+.hero h1 span {
+    color: var(--purple);
 }
 
-.hero-content > p {
-    max-width: 580px;
-    margin-top: 30px;
 
-    color: var(--gray);
-    font-size: 1.05rem;
+.hero p {
+    color: var(--muted);
+
+    font-size: 18px;
+
+    max-width: 540px;
+
+    margin-bottom: 35px;
 }
+
 
 .hero-buttons {
     display: flex;
-    gap: 12px;
-    margin-top: 35px;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
 }
+
 
 .btn {
     display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
 
-    padding: 14px 22px;
-    border-radius: 12px;
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 15px 25px;
+
+    border-radius: 50px;
 
     font-weight: 700;
-    font-size: .85rem;
-
-    border: 1px solid transparent;
-    cursor: pointer;
 
     transition: .3s;
+
+    border: none;
+
+    cursor: pointer;
 }
 
-.btn-primary {
+
+.primary {
+    background: var(--purple);
+
     color: white;
-    background: linear-gradient(
-        110deg,
-        var(--purple),
-        var(--pink)
-    );
 
-    box-shadow: 0 12px 35px rgba(255,60,172,.2);
+    box-shadow:
+        0 10px 25px rgba(111, 75, 120, .25);
 }
 
-.btn-primary:hover {
+
+.primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 18px 40px rgba(255,60,172,.35);
-}
 
-.btn-outline {
-    border-color: var(--border);
-    color: #ddd5e2;
-}
-
-.btn-outline:hover {
-    border-color: var(--purple);
-}
-
-.hero-note {
-    margin-top: 30px;
-
-    color: #77717f;
-    font-size: .78rem;
-
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.hero-note i {
-    color: var(--pink);
+    background: var(--purple-dark);
 }
 
 
-/* HERO VISUAL */
+.secondary {
+    border: 1px solid #ddd0df;
 
-.hero-visual {
+    color: var(--purple);
+}
+
+
+.secondary:hover {
+    background: var(--purple-light);
+}
+
+
+/* HERO IMAGE */
+
+.hero-image {
     position: relative;
-    min-height: 500px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.circle {
-    position: absolute;
-    border-radius: 50%;
-}
 
-.circle-one {
-    width: 400px;
-    height: 400px;
-
-    border: 1px solid rgba(255,60,172,.18);
-}
-
-.circle-two {
-    width: 300px;
-    height: 300px;
-
-    border: 1px solid rgba(139,61,255,.3);
-}
-
-.hero-card {
+.image-card {
     position: relative;
-    width: 330px;
-    height: 420px;
 
-    border: 1px solid rgba(255,255,255,.1);
-    border-radius: 30px;
+    border-radius: 35px;
 
-    background:
-        linear-gradient(
-            145deg,
-            rgba(139,61,255,.22),
-            rgba(255,60,172,.08)
-        ),
-        #100b15;
+    overflow: hidden;
 
     box-shadow: var(--shadow);
 
-    padding: 28px;
+    transform: rotate(2deg);
+}
+
+
+.image-card img {
+    height: 600px;
+
+    object-fit: cover;
+}
+
+
+.floating-card {
+    position: absolute;
+
+    bottom: 25px;
+    left: 25px;
+    right: 25px;
+
+    background: rgba(255, 255, 255, .92);
+
+    backdrop-filter: blur(10px);
+
+    padding: 18px;
+
+    border-radius: 20px;
 
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 
-    transform: rotate(4deg);
+    gap: 15px;
 
-    animation: floating 5s ease-in-out infinite;
+    align-items: center;
 }
 
-@keyframes floating {
-    0%,100% {
-        transform: translateY(0) rotate(4deg);
-    }
 
-    50% {
-        transform: translateY(-14px) rotate(2deg);
-    }
+.floating-card span {
+    font-size: 30px;
 }
 
-.card-top {
-    display: flex;
-    justify-content: space-between;
 
-    color: #aaa0b1;
+.floating-card small {
+    display: block;
+
+    color: var(--muted);
 }
 
-.hero-symbol {
+
+/* QUOTE */
+
+.quote-section {
+    padding: 110px 30px;
+
+    background: var(--purple-light);
+
     text-align: center;
-
-    font-size: 10rem;
-    font-weight: 900;
-
-    background:
-        linear-gradient(
-            135deg,
-            var(--pink),
-            var(--purple)
-        );
-
-    -webkit-background-clip: text;
-    color: transparent;
 }
 
-.hero-card h3 {
-    font-family: "Space Grotesk";
-    font-size: 1.5rem;
+
+.quote {
+    max-width: 800px;
+
+    margin: auto;
 }
 
-.hero-card p {
+
+.quote > span {
+    font-family: serif;
+
+    font-size: 90px;
+
     color: var(--pink);
+
+    height: 50px;
+
+    display: block;
 }
 
 
-/* STATEMENT */
+.quote h2 {
+    font-size: clamp(30px, 5vw, 50px);
 
-.statement {
-    max-width: 1000px;
-    margin: 80px auto 140px;
+    color: var(--purple-dark);
 
-    padding: 60px 25px;
-
-    display: grid;
-    grid-template-columns: 100px 1fr;
-    gap: 40px;
-
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
+    margin-bottom: 20px;
 }
 
-.statement-number {
-    font-family: "Space Grotesk";
-    color: var(--purple-light);
-    font-size: 1.3rem;
-}
 
-.mini-title {
-    color: var(--pink);
-    font-size: .7rem;
-    font-weight: 800;
-    letter-spacing: 2px;
-}
-
-.statement h2 {
-    margin: 15px 0;
-
-    max-width: 700px;
-
-    font-family: "Space Grotesk";
-    font-size: clamp(2rem, 4vw, 4rem);
-    line-height: 1;
-}
-
-.statement p:last-child {
-    max-width: 700px;
-    color: var(--gray);
+.quote p {
+    color: var(--muted);
 }
 
 
 /* SECTIONS */
 
 .section {
-    max-width: 1250px;
+    max-width: 1200px;
+
     margin: auto;
-    padding: 100px 25px;
-}
 
-.section-heading {
-    display: grid;
-    grid-template-columns: 1fr .6fr;
-    gap: 60px;
-
-    margin-bottom: 55px;
-}
-
-.section-heading h2,
-.quiz-intro h2,
-.help-heading h2,
-.references h2 {
-    margin-top: 12px;
-
-    font-family: "Space Grotesk";
-    font-size: clamp(2.5rem, 5vw, 5rem);
-    line-height: 1;
-    letter-spacing: -2px;
-}
-
-.section-heading > p {
-    color: var(--gray);
-    align-self: end;
+    padding: 120px 30px;
 }
 
 
-/* CARDS */
+.section-title {
+    max-width: 650px;
 
-.types-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
+    margin-bottom: 60px;
 }
 
-.type-card {
-    min-height: 280px;
 
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 20px;
+.section-title h2 {
+    font-size: clamp(35px, 5vw, 55px);
 
-    padding: 27px;
+    line-height: 1.1;
 
-    position: relative;
-    overflow: hidden;
-
-    transition: .35s;
+    margin-bottom: 18px;
 }
 
-.type-card:hover {
-    transform: translateY(-7px);
-    border-color: rgba(255,60,172,.4);
 
-    box-shadow:
-        0 20px 50px rgba(0,0,0,.3);
-}
-
-.type-card > span {
-    position: absolute;
-    right: 25px;
-    top: 25px;
-
-    color: #49404f;
-    font-size: .8rem;
-}
-
-.type-icon {
-    width: 48px;
-    height: 48px;
-
-    border-radius: 14px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin-bottom: 40px;
-}
-
-.type-icon.pink {
-    background: rgba(255,60,172,.1);
-    color: var(--pink);
-}
-
-.type-icon.purple {
-    background: rgba(139,61,255,.12);
-    color: var(--purple-light);
-}
-
-.type-card h3 {
-    font-family: "Space Grotesk";
-    font-size: 1.5rem;
-}
-
-.type-card p {
-    color: var(--gray);
-    font-size: .86rem;
-    margin: 8px 0 20px;
-}
-
-.learn-more {
-    background: none;
-    border: none;
-
-    color: var(--pink);
-    font-weight: 700;
-
-    cursor: pointer;
-}
-
-.special-card {
-    background:
-        linear-gradient(
-            135deg,
-            var(--purple),
-            var(--pink)
-        );
-
-    border: none;
-}
-
-.special-content {
-    height: 100%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.special-content > i {
-    font-size: 2rem;
-    margin-bottom: 25px;
-}
-
-.special-content h3 {
-    font-family: "Space Grotesk";
-    font-size: 1.7rem;
-    max-width: 230px;
-}
-
-.special-content a {
-    margin-top: 20px;
-    font-size: .8rem;
-    font-weight: 700;
+.section-title p {
+    color: var(--muted);
 }
 
 
 /* QUIZ */
 
 .quiz-section {
-    padding: 130px 25px;
-
-    background:
-        radial-gradient(
-            circle at 50% 20%,
-            rgba(139,61,255,.15),
-            transparent 40%
-        ),
-        #0a070d;
-}
-
-.quiz-intro {
-    max-width: 800px;
-    margin: auto;
     text-align: center;
 }
 
-.quiz-intro p {
-    color: var(--gray);
-    max-width: 600px;
-    margin: 25px auto;
-}
 
-.quiz-box {
-    max-width: 750px;
-    margin: 50px auto 0;
+.quiz-container {
+    max-width: 720px;
 
-    padding: 35px;
+    margin: auto;
 
-    background: #120d17;
-    border: 1px solid var(--border);
-    border-radius: 25px;
+    background: white;
+
+    padding: 45px;
+
+    border-radius: 30px;
 
     box-shadow: var(--shadow);
+
+    text-align: left;
 }
 
-.quiz-progress {
-    margin-bottom: 45px;
-}
 
-.quiz-progress span {
-    color: #8d8493;
-    font-size: .75rem;
-}
+.progress-bar {
+    height: 8px;
 
-.progress {
-    width: 100%;
-    height: 5px;
+    background: #eee5ee;
 
-    background: #29212f;
     border-radius: 10px;
 
-    margin-top: 10px;
+    overflow: hidden;
+
+    margin-bottom: 12px;
 }
 
-#progressBar {
+
+#progress {
     height: 100%;
-    width: 20%;
 
-    background: linear-gradient(
-        90deg,
-        var(--purple),
-        var(--pink)
-    );
+    width: 10%;
 
-    border-radius: 10px;
+    background: var(--pink);
 
     transition: .4s;
 }
 
-#question {
-    font-family: "Space Grotesk";
-    font-size: 1.7rem;
-    line-height: 1.2;
-    margin-bottom: 25px;
+
+#question-number {
+    font-size: 13px;
+
+    color: var(--muted);
 }
+
+
+#question-box h3 {
+    font-size: 25px;
+
+    margin: 40px 0 25px;
+}
+
 
 .answer {
     width: 100%;
+
+    padding: 18px;
+
+    margin-bottom: 12px;
+
+    border-radius: 15px;
+
+    border: 1px solid #e6dce7;
+
+    background: white;
+
     text-align: left;
-
-    padding: 16px 18px;
-    margin-bottom: 10px;
-
-    border-radius: 12px;
-    border: 1px solid var(--border);
-
-    background: #19131f;
-    color: #d9d2dd;
 
     cursor: pointer;
 
     transition: .25s;
+
+    font-size: 15px;
 }
 
+
 .answer:hover {
+    background: var(--purple-light);
+
     border-color: var(--purple);
 }
 
-.answer.selected {
-    background: rgba(139,61,255,.15);
-    border-color: var(--purple-light);
+
+#quiz-result {
+    text-align: center;
+
+    padding: 20px;
 }
 
-.answer.correct {
-    background: rgba(30,180,110,.12);
-    border-color: #30d98c;
+
+#result-icon {
+    font-size: 55px;
+
+    margin-bottom: 15px;
 }
 
-.answer.wrong {
-    background: rgba(255,60,100,.1);
-    border-color: #ff466f;
+
+#result-title {
+    font-family: "Playfair Display", serif;
+
+    font-size: 35px;
+
+    color: var(--purple);
 }
 
-.quiz-next {
-    margin-top: 20px;
 
-    width: 100%;
-    padding: 14px;
+#result-text {
+    color: var(--muted);
+
+    margin: 20px auto 30px;
+
+    max-width: 500px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+/* CARDS */
+
+.signs-section {
+    max-width: 1200px;
+}
+
+
+.cards {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+
+.info-card {
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 25px;
+
+    box-shadow:
+        0 10px 30px rgba(72, 45, 75, .07);
+
+    transition: .3s;
+}
+
+
+.info-card:hover {
+    transform: translateY(-7px);
+}
+
+
+.card-icon {
+    font-size: 35px;
+
+    margin-bottom: 20px;
+}
+
+
+.info-card h3 {
+    margin-bottom: 10px;
+}
+
+
+.info-card p {
+    color: var(--muted);
+
+    font-size: 14px;
+}
+
+
+/* GAME */
+
+.game-section {
+    padding: 120px 30px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f7e9ed,
+            #eee5f2
+        );
+
+    text-align: center;
+}
+
+
+.game-content {
+    max-width: 700px;
+
+    margin: auto;
+}
+
+
+.game-content h2 {
+    font-size: 55px;
+
+    margin-bottom: 25px;
+}
+
+
+.game-content p {
+    font-size: 22px;
+
+    color: var(--purple-dark);
+
+    margin-bottom: 30px;
+}
+
+
+.game-buttons {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+}
+
+
+.game-btn {
+    padding: 15px 30px;
+
+    border-radius: 50px;
 
     border: none;
-    border-radius: 12px;
 
-    background: var(--purple);
-    color: white;
+    background: white;
+
+    color: var(--purple-dark);
 
     font-weight: 700;
 
     cursor: pointer;
 
-    opacity: .4;
+    box-shadow: 0 8px 20px rgba(0,0,0,.06);
 }
 
-.quiz-next:not(:disabled) {
-    opacity: 1;
+
+#game-feedback {
+    margin-top: 25px;
+
+    font-weight: 700;
+
+    min-height: 30px;
 }
 
-.hidden {
-    display: none !important;
-}
 
-.quiz-result {
-    text-align: center;
-}
+/* STORY */
 
-.result-icon {
-    width: 75px;
-    height: 75px;
+.story-section {
+    max-width: 1200px;
 
     margin: auto;
 
-    border-radius: 50%;
+    padding: 120px 30px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background: linear-gradient(
-        135deg,
-        var(--purple),
-        var(--pink)
-    );
-
-    font-size: 1.8rem;
-}
-
-.quiz-result > p {
-    margin-top: 25px;
-    color: var(--gray);
-    font-size: .7rem;
-    letter-spacing: 2px;
-}
-
-.quiz-result strong {
-    display: block;
-
-    font-family: "Space Grotesk";
-    font-size: 5rem;
-
-    background: linear-gradient(
-        90deg,
-        var(--pink),
-        var(--purple-light)
-    );
-
-    -webkit-background-clip: text;
-    color: transparent;
-}
-
-
-/* ESCUTA */
-
-.listening {
-    padding-top: 130px;
-}
-
-.listening-grid {
     display: grid;
-    grid-template-columns: .8fr 1.2fr;
-    gap: 25px;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 80px;
+
+    align-items: center;
 }
 
-.listening-message,
-.listen-form {
-    padding: 35px;
 
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 22px;
+.story-image {
+    border-radius: 30px;
+
+    overflow: hidden;
+
+    box-shadow: var(--shadow);
 }
 
-.quote {
-    font-family: Georgia;
-    font-size: 6rem;
-    color: var(--pink);
-    line-height: .7;
+
+.story-image img {
+    height: 550px;
+
+    object-fit: cover;
 }
 
-.listening-message h3 {
-    margin-top: 30px;
 
-    font-family: "Space Grotesk";
-    font-size: 2rem;
+.story-content h2 {
+    font-size: 50px;
+
+    line-height: 1.1;
+
+    margin-bottom: 25px;
 }
 
-.listening-message p {
-    margin-top: 15px;
-    color: var(--gray);
+
+.story-content p {
+    color: var(--muted);
+
+    margin-bottom: 20px;
 }
 
-.support-tip {
-    margin-top: 35px;
 
-    padding: 15px;
+.text-link {
+    color: var(--purple);
 
-    background: rgba(139,61,255,.1);
-    border-radius: 12px;
-
-    display: flex;
-    gap: 12px;
-
-    font-size: .8rem;
-}
-
-.support-tip i {
-    color: var(--purple-light);
-}
-
-.listen-form {
-    display: flex;
-    flex-direction: column;
-}
-
-.listen-form label {
     font-weight: 700;
-    margin-bottom: 12px;
-}
-
-textarea {
-    min-height: 260px;
-    resize: vertical;
-
-    padding: 18px;
-
-    border: 1px solid var(--border);
-    border-radius: 14px;
-
-    background: #0c0910;
-    color: white;
-
-    outline: none;
-
-    font-family: inherit;
-}
-
-textarea:focus {
-    border-color: var(--purple);
-}
-
-.listen-form .btn {
-    margin-top: 15px;
-}
-
-.support-response {
-    margin-top: 15px;
-
-    padding: 16px;
-
-    border-radius: 12px;
-
-    background: rgba(255,60,172,.08);
-    border: 1px solid rgba(255,60,172,.2);
-
-    color: #e6dce9;
-
-    font-size: .85rem;
 }
 
 
 /* HELP */
 
 .help-section {
-    padding: 130px 25px;
+    background: var(--purple);
 
-    background:
-        linear-gradient(
-            135deg,
-            #100816,
-            #080509
-        );
+    color: white;
+
+    padding: 100px 30px;
 }
 
-.help-heading {
-    max-width: 1250px;
+
+.help-content {
+    max-width: 900px;
+
     margin: auto;
 }
 
-.help-heading p {
-    margin-top: 20px;
-    color: var(--gray);
+
+.light {
+    color: #e8cddd;
 }
 
-.help-grid {
-    max-width: 1250px;
-    margin: 50px auto 0;
 
+.help-content h2 {
+    font-size: 60px;
+
+    margin-bottom: 20px;
+}
+
+
+.help-content > p {
+    max-width: 600px;
+
+    color: #e7dce9;
+
+    margin-bottom: 40px;
+}
+
+
+.help-cards {
     display: grid;
-    grid-template-columns: 1.3fr 1fr 1fr;
-    gap: 16px;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
 }
+
 
 .help-card {
-    padding: 35px;
-    min-height: 300px;
+    background: rgba(255,255,255,.1);
 
-    border: 1px solid var(--border);
+    border: 1px solid rgba(255,255,255,.15);
+
+    padding: 25px;
+
     border-radius: 20px;
 
-    background: #130d18;
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
 }
 
-.help-card h3 {
-    font-family: "Space Grotesk";
-    font-size: 1.4rem;
-    margin-top: 20px;
+
+.help-card > span {
+    font-size: 35px;
 }
+
+
+.help-card strong {
+    font-size: 30px;
+}
+
 
 .help-card p {
-    color: var(--gray);
-    margin-top: 12px;
-    font-size: .85rem;
+    color: #e7dce9;
 }
 
-.help-number {
-    font-family: "Space Grotesk";
-    font-size: 4.5rem;
-    font-weight: 900;
 
-    background: linear-gradient(
-        90deg,
-        var(--pink),
-        var(--purple-light)
-    );
+/* FINAL */
 
-    -webkit-background-clip: text;
-    color: transparent;
+.final-section {
+    text-align: center;
+
+    padding: 120px 30px;
 }
 
-.main-help a {
-    display: inline-flex;
-    gap: 8px;
-    margin-top: 25px;
+
+.flower {
+    font-size: 60px;
 
     color: var(--pink);
-    font-size: .8rem;
-    font-weight: 700;
-}
 
-.help-icon {
-    width: 50px;
-    height: 50px;
-
-    border-radius: 14px;
-
-    background: rgba(139,61,255,.12);
-    color: var(--purple-light);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.emergency {
-    border-color: rgba(255,60,100,.3);
-}
-
-.emergency strong {
-    display: block;
-
-    margin-top: 15px;
-
-    font-family: "Space Grotesk";
-    font-size: 2.5rem;
-
-    color: var(--pink);
-}
-
-.important-note {
-    max-width: 1250px;
-    margin: 25px auto 0;
-
-    padding: 18px;
-
-    display: flex;
-    gap: 15px;
-
-    border-radius: 14px;
-
-    background: rgba(255,255,255,.025);
-    color: #8f8796;
-
-    font-size: .78rem;
-}
-
-.important-note i {
-    color: var(--pink);
+    animation: float 3s ease-in-out infinite;
 }
 
 
-/* REFERÊNCIAS */
+.final-section h2 {
+    font-size: clamp(40px, 6vw, 65px);
 
-.references {
-    padding-bottom: 130px;
+    color: var(--purple-dark);
+
+    max-width: 700px;
+
+    margin: auto auto 20px;
 }
 
-.reference-list {
-    margin-top: 50px;
 
-    border-top: 1px solid var(--border);
-}
-
-.reference-list a {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 20px 5px;
-
-    border-bottom: 1px solid var(--border);
-
-    color: #c8c0cc;
-
-    transition: .3s;
-}
-
-.reference-list a:hover {
-    color: var(--pink);
-    padding-left: 15px;
+.final-section p {
+    color: var(--muted);
 }
 
 
 /* FOOTER */
 
 footer {
-    padding: 60px 25px;
+    background: #2d2230;
+
+    color: white;
+
     text-align: center;
 
-    border-top: 1px solid var(--border);
-
-    color: #6d6572;
+    padding: 50px 30px;
 }
+
 
 .footer-logo {
-    font-family: "Space Grotesk";
-    font-size: 2rem;
-    font-weight: 900;
+    font-weight: 700;
 
-    color: var(--pink);
+    margin-bottom: 10px;
 }
+
 
 footer p {
-    margin-top: 8px;
-    font-size: .8rem;
+    color: #cfc3d1;
+
+    margin-bottom: 15px;
 }
+
 
 footer small {
-    display: block;
-    margin-top: 25px;
+    color: #9e929f;
 }
 
 
-/* MODAL */
+/* ANIMAÇÃO */
 
-.modal {
-    position: fixed;
-    inset: 0;
+@keyframes float {
 
-    background: rgba(0,0,0,.75);
-    backdrop-filter: blur(8px);
+    0%, 100% {
+        transform: translateY(0);
+    }
 
-    display: none;
-    align-items: center;
-    justify-content: center;
-
-    z-index: 3000;
-}
-
-.modal.active {
-    display: flex;
-}
-
-.modal-box {
-    width: min(500px, 90%);
-
-    padding: 35px;
-
-    border-radius: 20px;
-
-    background: #18111e;
-    border: 1px solid var(--border);
-
-    position: relative;
-
-    box-shadow: var(--shadow);
-}
-
-.modal-box > i {
-    font-size: 2rem;
-    color: var(--pink);
-    margin-bottom: 20px;
-}
-
-.close-modal {
-    position: absolute;
-    right: 20px;
-    top: 15px;
-
-    background: none;
-    border: none;
-
-    color: white;
-    font-size: 1.7rem;
-
-    cursor: pointer;
+    50% {
+        transform: translateY(-10px);
+    }
 }
 
 
-/* TOP */
+/* MOBILE */
 
-.top-btn {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-
-    width: 45px;
-    height: 45px;
-
-    border: none;
-    border-radius: 50%;
-
-    background: linear-gradient(
-        135deg,
-        var(--purple),
-        var(--pink)
-    );
-
-    color: white;
-
-    cursor: pointer;
-
-    display: none;
-    z-index: 1000;
-}
-
-.top-btn.visible {
-    display: block;
-}
-
-
-/* CONTRASTE */
-
-body.high-contrast {
-    --black: #000;
-    --card: #000;
-    --purple: #fff;
-    --pink: #fff;
-    --purple-light: #fff;
-    --gray: #fff;
-}
-
-body.high-contrast * {
-    border-color: white !important;
-}
-
-
-/* RESPONSIVO */
-
-@media(max-width: 900px) {
+@media (max-width: 800px) {
 
     .nav-links {
-        position: absolute;
-        top: 82px;
-        left: 0;
-
-        width: 100%;
-
-        background: #0d0910;
-
-        flex-direction: column;
-        align-items: center;
-
-        padding: 30px;
-
         display: none;
     }
 
-    .nav-links.active {
-        display: flex;
-    }
-
-    .menu-btn {
-        display: block;
-    }
 
     .hero {
         grid-template-columns: 1fr;
-        text-align: center;
+
+        padding-top: 130px;
     }
 
-    .hero-content > p {
-        margin-left: auto;
-        margin-right: auto;
+
+    .hero-image {
+        margin-top: 20px;
     }
 
-    .hero-buttons {
-        justify-content: center;
+
+    .image-card img {
+        height: 450px;
     }
 
-    .hero-note {
-        justify-content: center;
-    }
 
-    .section-heading,
-    .listening-grid {
+    .cards {
         grid-template-columns: 1fr;
     }
 
-    .types-grid {
-        grid-template-columns: repeat(2, 1fr);
+
+    .story-section {
+        grid-template-columns: 1fr;
+
+        gap: 40px;
     }
 
-    .help-grid {
+
+    .story-image img {
+        height: 400px;
+    }
+
+
+    .help-cards {
         grid-template-columns: 1fr;
+    }
+
+
+    .quiz-container {
+        padding: 25px;
+    }
+
+
+    .game-content h2,
+    .help-content h2,
+    .story-content h2 {
+        font-size: 42px;
     }
 
 }
-
-@media(max-width: 600px) {
-
-    .hero h1 {
-        letter-spacing: -3px;
-    }
-
-    .hero-visual {
-        min-height: 400px;
-    }
-
-    .hero-card {
-        width: 270px;
-        height: 350px;
-    }
-
-    .hero-symbol {
-        font-size: 7rem;
-    }
-
-    .statement {
-        grid-template-columns: 1fr;
-    }
-
-    .types-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .quiz-box {
-        padding: 22px;
-    }
-
-    .accessibility {
-        display: none;
-    }
-
-}
-/* =========================
-   MENU MOBILE
-========================= */
-
-const menuBtn = document.getElementById("menuBtn");
-const navLinks = document.getElementById("navLinks");
-
-menuBtn.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-});
-
-
-/* Fecha menu ao clicar */
-
-document.querySelectorAll(".nav-links a").forEach(link => {
-
-    link.addEventListener("click", () => {
-        navLinks.classList.remove("active");
-    });
-
-});
-
-
-/* =========================
-   QUIZ
-========================= */
-
 const questions = [
 
     {
-        question: "Uma pessoa controla constantemente o celular, as amizades e os horários da parceira. Isso pode ser violência?",
-
-        answers: [
-            "Não, porque é apenas preocupação.",
-            "Sim, pode ser violência psicológica.",
-            "Não, se houver relacionamento.",
-            "Somente se houver agressão física."
-        ],
-
-        correct: 1
+        text: "Seu parceiro tenta controlar com quem você conversa?",
+        alert: 2
     },
 
     {
-        question: "Qual destas atitudes pode caracterizar violência patrimonial?",
-
-        answers: [
-            "Respeitar a decisão da mulher.",
-            "Dividir as despesas da casa.",
-            "Reter ou destruir documentos e bens.",
-            "Conversar sobre dinheiro."
-        ],
-
-        correct: 2
+        text: "Você precisa informar onde está para evitar uma discussão?",
+        alert: 2
     },
 
     {
-        question: "Qual é o canal oficial de atendimento à mulher em situação de violência que funciona 24 horas?",
-
-        answers: [
-            "Ligue 180",
-            "Ligue 123",
-            "Ligue 150",
-            "Ligue 999"
-        ],
-
-        correct: 0
+        text: "Ele já tentou impedir você de encontrar amigos ou familiares?",
+        alert: 2
     },
 
     {
-        question: "Em uma situação de emergência ou risco iminente, qual número deve ser acionado?",
-
-        answers: [
-            "181",
-            "180",
-            "190",
-            "192"
-        ],
-
-        correct: 2
+        text: "Ele já mexeu no seu celular ou redes sociais sem sua autorização?",
+        alert: 1
     },
 
     {
-        question: "Se uma estudante estiver passando por uma situação difícil, qual atitude pode ser um primeiro passo importante?",
+        text: "Ele costuma diminuir suas conquistas ou fazer você se sentir incapaz?",
+        alert: 2
+    },
 
-        answers: [
-            "Guardar tudo para si.",
-            "Culpar a própria vítima.",
-            "Procurar um adulto de confiança ou serviço especializado.",
-            "Ignorar a situação."
-        ],
+    {
+        text: "Quando você diz 'não', ele respeita sua decisão?",
+        alert: 0,
+        reverse: true
+    },
 
-        correct: 2
+    {
+        text: "Ele controla seu dinheiro, cartão ou salário?",
+        alert: 2
+    },
+
+    {
+        text: "Você já mudou seu comportamento por medo da reação dele?",
+        alert: 3
+    },
+
+    {
+        text: "Ele já ameaçou você ou alguém importante para você?",
+        alert: 3
+    },
+
+    {
+        text: "Ele faz você acreditar que tudo de ruim no relacionamento é culpa sua?",
+        alert: 2
     }
 
 ];
 
 
+const answers = [
+
+    "Nunca",
+
+    "Às vezes",
+
+    "Frequentemente",
+
+    "Sempre"
+
+];
+
+
 let currentQuestion = 0;
+
 let score = 0;
-let selectedAnswer = null;
 
 
-const questionElement = document.getElementById("question");
-const answersElement = document.getElementById("answers");
-const nextBtn = document.getElementById("nextBtn");
+const questionElement =
+    document.getElementById("question");
 
-const questionNumber =
-    document.getElementById("questionNumber");
+const answersElement =
+    document.getElementById("answers");
 
-const progressBar =
-    document.getElementById("progressBar");
+const progressElement =
+    document.getElementById("progress");
 
-const quizContent =
-    document.getElementById("quizContent");
+const numberElement =
+    document.getElementById("question-number");
 
-const quizResult =
-    document.getElementById("quizResult");
+const questionBox =
+    document.getElementById("question-box");
 
-const scoreElement =
-    document.getElementById("score");
-
-const resultMessage =
-    document.getElementById("resultMessage");
-
-const resultText =
-    document.getElementById("resultText");
+const resultBox =
+    document.getElementById("quiz-result");
 
 
 function loadQuestion() {
 
-    selectedAnswer = null;
+    const question =
+        questions[currentQuestion];
 
-    const current = questions[currentQuestion];
 
-    questionElement.textContent = current.question;
+    questionElement.textContent =
+        question.text;
+
+
+    numberElement.textContent =
+        `Pergunta ${currentQuestion + 1} de ${questions.length}`;
+
+
+    progressElement.style.width =
+        `${((currentQuestion + 1) / questions.length) * 100}%`;
+
 
     answersElement.innerHTML = "";
 
-    questionNumber.textContent =
-        `Pergunta ${currentQuestion + 1} de ${questions.length}`;
 
-    progressBar.style.width =
-        `${((currentQuestion + 1) / questions.length) * 100}%`;
+    answers.forEach((answer, index) => {
 
-    nextBtn.disabled = true;
+        const button =
+            document.createElement("button");
 
 
-    current.answers.forEach((answer, index) => {
+        button.className = "answer";
 
-        const button = document.createElement("button");
-
-        button.classList.add("answer");
 
         button.textContent = answer;
 
-        button.addEventListener("click", () => {
 
-            if (selectedAnswer !== null) return;
+        button.onclick = () =>
+            selectAnswer(index);
 
-            selectedAnswer = index;
-
-            document
-                .querySelectorAll(".answer")
-                .forEach(btn => btn.classList.remove("selected"));
-
-            button.classList.add("selected");
-
-            nextBtn.disabled = false;
-
-        });
 
         answersElement.appendChild(button);
 
@@ -2199,291 +1625,218 @@ function loadQuestion() {
 }
 
 
-nextBtn.addEventListener("click", () => {
+function selectAnswer(index) {
 
-    const current = questions[currentQuestion];
-
-    const answerButtons =
-        document.querySelectorAll(".answer");
-
-    answerButtons.forEach((button, index) => {
-
-        button.disabled = true;
-
-        if (index === current.correct) {
-            button.classList.add("correct");
-        }
-
-        if (
-            index === selectedAnswer &&
-            selectedAnswer !== current.correct
-        ) {
-            button.classList.add("wrong");
-        }
-
-    });
+    const question =
+        questions[currentQuestion];
 
 
-    if (selectedAnswer === current.correct) {
-        score++;
-    }
+    let points = index;
 
 
-    nextBtn.textContent =
-        currentQuestion === questions.length - 1
-            ? "Ver resultado"
-            : "Continuar";
+    if (question.reverse) {
 
-
-    setTimeout(() => {
-
-        currentQuestion++;
-
-        if (currentQuestion < questions.length) {
-
-            nextBtn.innerHTML =
-                `Próxima <i class="fa-solid fa-arrow-right"></i>`;
-
-            loadQuestion();
-
-        } else {
-
-            showResult();
-
-        }
-
-    }, 700);
-
-});
-
-
-function showResult() {
-
-    quizContent.classList.add("hidden");
-
-    quizResult.classList.remove("hidden");
-
-    scoreElement.textContent =
-        `${score}/${questions.length}`;
-
-
-    if (score === 5) {
-
-        resultMessage.textContent =
-            "Excelente!";
-
-        resultText.textContent =
-            "Você demonstrou conhecer muito bem os principais conceitos.";
+        points = 3 - index;
 
     }
 
-    else if (score >= 3) {
 
-        resultMessage.textContent =
-            "Muito bem!";
+    score +=
+        points * question.alert;
 
-        resultText.textContent =
-            "Você já conhece pontos importantes, mas ainda pode aprender mais.";
 
-    }
+    currentQuestion++;
 
-    else {
 
-        resultMessage.textContent =
-            "Continue aprendendo!";
+    if (currentQuestion < questions.length) {
 
-        resultText.textContent =
-            "Conhecimento ajuda a reconhecer situações e saber onde buscar apoio.";
+        loadQuestion();
+
+    } else {
+
+        showResult();
 
     }
 
 }
 
 
-document.getElementById("restartQuiz")
-    .addEventListener("click", () => {
+function showResult() {
 
-        currentQuestion = 0;
-        score = 0;
+    questionBox.classList.add("hidden");
 
-        quizResult.classList.add("hidden");
-        quizContent.classList.remove("hidden");
+    document
+        .getElementById("quiz-progress")
+        .classList.add("hidden");
 
-        loadQuestion();
-
-        document
-            .getElementById("teste")
-            .scrollIntoView({
-                behavior: "smooth"
-            });
-
-    });
+    resultBox.classList.remove("hidden");
 
 
-loadQuestion();
+    const title =
+        document.getElementById("result-title");
+
+    const text =
+        document.getElementById("result-text");
+
+    const icon =
+        document.getElementById("result-icon");
 
 
-/* =========================
-   PORTAL DE ESCUTA
-========================= */
+    if (score <= 12) {
 
-const listenForm =
-    document.getElementById("listenForm");
+        icon.textContent = "💜";
 
-const supportResponse =
-    document.getElementById("supportResponse");
+        title.textContent =
+            "Poucos sinais identificados";
 
-listenForm.addEventListener("submit", function(event) {
+        text.textContent =
+            "Suas respostas não indicaram muitos sinais de comportamento abusivo. Ainda assim, relacionamentos saudáveis devem respeitar seus limites, sua autonomia e suas escolhas.";
 
-    event.preventDefault();
-
-    supportResponse.classList.remove("hidden");
-
-    supportResponse.innerHTML = `
-        <strong>💜 Obrigada por compartilhar.</strong>
-        <br><br>
-        Seus sentimentos importam e você merece ser tratada com respeito.
-        Se essa situação estiver acontecendo de verdade, procure uma pessoa
-        adulta de confiança ou um serviço especializado.
-        <br><br>
-        <strong>Este formulário é apenas uma simulação e nenhuma informação
-        foi armazenada.</strong>
-    `;
-
-    document.getElementById("message").value = "";
-
-});
-
-
-/* =========================
-   MODAL DOS TIPOS DE VIOLÊNCIA
-========================= */
-
-const modal =
-    document.getElementById("infoModal");
-
-const modalText =
-    document.getElementById("modalText");
-
-const closeModal =
-    document.getElementById("closeModal");
-
-
-document.querySelectorAll(".learn-more").forEach(button => {
-
-    button.addEventListener("click", () => {
-
-        modalText.textContent =
-            button.dataset.info;
-
-        modal.classList.add("active");
-
-    });
-
-});
-
-
-closeModal.addEventListener("click", () => {
-
-    modal.classList.remove("active");
-
-});
-
-
-modal.addEventListener("click", event => {
-
-    if (event.target === modal) {
-        modal.classList.remove("active");
     }
 
-});
+    else if (score <= 25) {
+
+        icon.textContent = "🌷";
+
+        title.textContent =
+            "Vale a pena prestar atenção";
+
+        text.textContent =
+            "Algumas respostas indicam comportamentos que merecem atenção. Controle, humilhação, isolamento e medo não são demonstrações de amor.";
+
+    }
+
+    else {
+
+        icon.textContent = "🚩";
+
+        title.textContent =
+            "Sinais importantes de alerta";
+
+        text.textContent =
+            "Suas respostas indicam comportamentos que podem estar relacionados à violência ou abuso. Você não precisa enfrentar isso sozinha. Considere conversar com alguém de confiança e buscar orientação.";
+
+    }
+
+}
 
 
-/* =========================
-   ACESSIBILIDADE
-========================= */
+function restartQuiz() {
 
-const root =
-    document.documentElement;
+    currentQuestion = 0;
 
-let fontSize = 1;
+    score = 0;
 
 
-document
-    .getElementById("fontIncrease")
-    .addEventListener("click", () => {
+    questionBox.classList.remove("hidden");
 
-        if (fontSize < 1.25) {
+    document
+        .getElementById("quiz-progress")
+        .classList.remove("hidden");
 
-            fontSize += .05;
-
-            root.style.setProperty(
-                "--font-size",
-                fontSize
-            );
-
-        }
-
-    });
+    resultBox.classList.add("hidden");
 
 
-document
-    .getElementById("fontDecrease")
-    .addEventListener("click", () => {
+    loadQuestion();
 
-        if (fontSize > .85) {
-
-            fontSize -= .05;
-
-            root.style.setProperty(
-                "--font-size",
-                fontSize
-            );
-
-        }
-
-    });
+}
 
 
-document
-    .getElementById("contrastBtn")
-    .addEventListener("click", () => {
+const gameSituations = [
 
-        document.body.classList.toggle(
-            "high-contrast"
-        );
+    {
+        text:
+            "“Me manda sua localização. É porque eu me preocupo com você.”",
 
-    });
+        answer:
+            "controle",
+
+        explanation:
+            "Preocupação não precisa significar vigilância constante. Controle sobre onde você está pode ser um sinal de alerta."
+    },
+
+    {
+        text:
+            "“Você não pode mais falar com essa sua amiga.”",
+
+        answer:
+            "controle",
+
+        explanation:
+            "Tentar afastar você das pessoas que fazem parte da sua rede de apoio pode ser uma forma de isolamento."
+    },
+
+    {
+        text:
+            "“Eu confio em você e respeito quando você precisa de espaço.”",
+
+        answer:
+            "amor",
+
+        explanation:
+            "Respeitar limites, espaço e autonomia são características de uma relação saudável."
+    }
+
+];
 
 
-/* =========================
-   VOLTAR AO TOPO
-========================= */
-
-const topBtn =
-    document.getElementById("topBtn");
+let gameIndex = 0;
 
 
-window.addEventListener("scroll", () => {
+function gameAnswer(answer) {
 
-    if (window.scrollY > 500) {
+    const situation =
+        gameSituations[gameIndex];
 
-        topBtn.classList.add("visible");
+
+    const feedback =
+        document.getElementById("game-feedback");
+
+
+    if (answer === situation.answer) {
+
+        feedback.textContent =
+            "✨ Isso! " + situation.explanation;
 
     } else {
 
-        topBtn.classList.remove("visible");
+        feedback.textContent =
+            "🌷 Observe esse comportamento: " +
+            situation.explanation;
 
     }
 
-});
+
+    gameIndex++;
 
 
-topBtn.addEventListener("click", () => {
+    if (gameIndex >= gameSituations.length) {
 
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
+        gameIndex = 0;
 
-});
+    }
+
+
+    setTimeout(() => {
+
+        document.getElementById("game-text")
+            .textContent =
+            gameSituations[gameIndex].text;
+
+        feedback.textContent = "";
+
+    }, 3500);
+
+}
+
+
+function quickExit() {
+
+    window.location.replace(
+        "https://www.google.com"
+    );
+
+}
+
+
+loadQuestion();
